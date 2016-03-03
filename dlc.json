@@ -1,0 +1,3880 @@
+{
+  "HiddenXMLContainer": {
+    "-xmlns:x0": "http://www.w3.org/2001/XMLSchema",
+    "dlcUnits": {
+      "WorldUnitTemplate": [
+        {
+          "id": "162",
+          "spawnId": "162",
+          "race": "ANIMALS",
+          "battleStats": {
+            "name": "King Tigers",
+            "defaultLevel": "3",
+            "abilityScores": {
+              "strength": { "score": "14" },
+              "dexterity": { "score": "16" },
+              "constitution": { "score": "12" },
+              "intellegence": { "score": "6" },
+              "wisdom": { "score": "8" },
+              "charisma": { "score": "2" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Slashing",
+                    "addAttackDamageBonus": "1",
+                    "count": "2",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "3",
+              "maxDexterityBonus": "8"
+            },
+            "creatureType": "MonstrousHumanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "8",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Fast",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Forester",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "3",
+            "size": "S1x1",
+            "type": "MONSTER",
+            "movementSpeed": "4",
+            "mana": "0"
+          },
+          "productionCost": "3",
+          "viewDistance": "2",
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "1",
+          "goldUpkeepCost": "0",
+          "neUpkeepCost": "0",
+          "experienceYield": "350",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "RC_KingTiger",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "163",
+          "spawnId": "163",
+          "race": "ANIMALS",
+          "battleStats": {
+            "name": "Ogre Mage",
+            "defaultLevel": "6",
+            "abilityScores": {
+              "strength": { "score": "19" },
+              "dexterity": { "score": "10" },
+              "constitution": { "score": "14" },
+              "intellegence": { "score": "16" },
+              "wisdom": { "score": "10" },
+              "charisma": { "score": "6" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "3",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Slashing",
+                    "addAttackDamageBonus": "1",
+                    "count": "2",
+                    "dieType": "6",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "3",
+              "maxDexterityBonus": "8"
+            },
+            "creatureType": "MonstrousHumanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Sorcerer",
+                "hitDie": "8",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Caster",
+                "Living",
+                "IronWill"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "2",
+            "size": "S1x1",
+            "type": "MONSTER",
+            "movementSpeed": "2",
+            "mana": "40",
+            "tacticalSpells": {
+              "int": [
+                "139",
+                "145",
+                "149",
+                "151",
+                "157"
+              ]
+            }
+          },
+          "productionCost": "3",
+          "viewDistance": "4",
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "1",
+          "goldUpkeepCost": "5",
+          "neUpkeepCost": "0",
+          "experienceYield": "350",
+          "dlc": "MobileOgreMage",
+          "replacement": "164",
+          "spriteName": "RC_OgreMage",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "166",
+          "spawnId": "166",
+          "race": "ANIMALS",
+          "battleStats": {
+            "name": "Elven Hussar",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "19" },
+              "dexterity": { "score": "16" },
+              "constitution": { "score": "12" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "15" },
+              "charisma": { "score": "12" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "4",
+                "criticalRange": "20",
+                "criticalMultiplier": "3",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Piercing",
+                    "addAttackDamageBonus": "1",
+                    "count": "1",
+                    "dieType": "10",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "6",
+              "maxDexterityBonus": "8"
+            },
+            "creatureType": "MonstrousHumanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "12",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Fast",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "IronWill",
+                "Charge",
+                "Forester",
+                "DeathWard",
+                "Evasion"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "2",
+            "size": "S1x1",
+            "type": "MONSTER",
+            "movementSpeed": "6",
+            "mana": "0"
+          },
+          "productionCost": "3",
+          "viewDistance": "3",
+          "movement": {
+            "type": "WALKER",
+            "points": "6",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "1",
+          "goldUpkeepCost": "5",
+          "neUpkeepCost": "0",
+          "experienceYield": "350",
+          "dlc": "MobileElvenHussar",
+          "replacement": "0",
+          "spriteName": "RC_ElvenHussar_dlc",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "217",
+          "spawnId": "217",
+          "race": "DRACONIANS",
+          "battleStats": {
+            "name": "Vendral",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "15" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "14" },
+              "intellegence": { "score": "14" },
+              "wisdom": { "score": "10" },
+              "charisma": { "score": "10" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "9",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "23",
+                  "slotType": "CHEST"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "10"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "10",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Caster",
+                "FireCircle",
+                "Blademaster",
+                "Flying",
+                "RandomAbility",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "10",
+            "movementSpeed": "4",
+            "mana": "4",
+            "defaultMana": "4",
+            "tacticalSpells": {
+              "int": [
+                "189",
+                "218"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "3",
+          "requiredBuildings": { "WFCityBuildingType": "TOURNEY_OF_THE_DAMNED" },
+          "movement": {
+            "type": "FLYER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "6",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileRase1",
+          "replacement": "0",
+          "spriteName": "H_Vendral",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "240",
+          "spawnId": "240",
+          "race": "HIGH_MEN",
+          "battleStats": {
+            "name": "Long Tongue",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "12" },
+              "dexterity": { "score": "16" },
+              "constitution": { "score": "12" },
+              "intellegence": { "score": "10" },
+              "wisdom": { "score": "12" },
+              "charisma": { "score": "10" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "1",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "6",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "24",
+                  "slotType": "CHEST"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Rogue",
+                "hitDie": "8",
+                "fortitudeProgression": "Slow",
+                "reflexProgression": "Fast",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "AuraofCourage",
+                "AuraofResolve",
+                "ShieldingAura",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "movementSpeed": "4",
+            "mana": "0"
+          },
+          "productionCost": "1",
+          "viewDistance": "2",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "4",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "H_Bard",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "215",
+          "spawnId": "215",
+          "race": "ORCS",
+          "battleStats": {
+            "name": "Bonebasher",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "19" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "16" },
+              "intellegence": { "score": "10" },
+              "wisdom": { "score": "10" },
+              "charisma": { "score": "10" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "11",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "29",
+                  "slotType": "CHEST"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "10"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "10",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Mauler",
+                "Mauler",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "10",
+            "movementSpeed": "4",
+            "mana": "0"
+          },
+          "productionCost": "1",
+          "viewDistance": "2",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "6",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileRase2",
+          "replacement": "0",
+          "spriteName": "H_Bonebasher",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "213",
+          "spawnId": "213",
+          "race": "DWARVES",
+          "battleStats": {
+            "name": "Kjorgi",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "14" },
+              "dexterity": { "score": "10" },
+              "constitution": { "score": "18" },
+              "intellegence": { "score": "10" },
+              "wisdom": { "score": "10" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "1",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "4",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "28",
+                  "slotType": "CHEST"
+                },
+                {
+                  "id": "34",
+                  "slotType": "OFF_HAND"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "10",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Mountaineer",
+                "WallCrusher",
+                "ClearMind",
+                "RandomAbility",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "5",
+            "movementSpeed": "4",
+            "mana": "0"
+          },
+          "productionCost": "1",
+          "viewDistance": "2",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "5",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileRace3",
+          "replacement": "0",
+          "spriteName": "H_Kjorgi",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "212",
+          "spawnId": "212",
+          "race": "INSECTOIDS",
+          "battleStats": {
+            "name": "Draylik",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "14" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "12" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "16" },
+              "charisma": { "score": "10" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "9",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "27",
+                  "slotType": "CHEST"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Druid",
+                "hitDie": "8",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Average"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Caster",
+                "Forester",
+                "EarthCircle",
+                "Living",
+                "PoisonImmunity"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "movementSpeed": "4",
+            "mana": "12",
+            "defaultMana": "6",
+            "strategicAbilities": { "int": "4" },
+            "tacticalSpells": {
+              "int": [
+                "127",
+                "145",
+                "157",
+                "165"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "2",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "5",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileRace4",
+          "replacement": "0",
+          "spriteName": "H_Draylik",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "241",
+          "spawnId": "241",
+          "race": "UNHALLOWED",
+          "battleStats": {
+            "name": "Aelys the Broken",
+            "defaultLevel": "6",
+            "abilityScores": {
+              "strength": { "score": "18" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "14" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "12" },
+              "charisma": { "score": "5" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "1",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "6",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "30",
+                  "slotType": "CHEST"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "10"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "10",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Blademaster",
+                "Blademaster",
+                "Blademaster",
+                "ImprovedCriticals",
+                "RandomAbility",
+                "Undead"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "20",
+            "movementSpeed": "2"
+          },
+          "productionCost": "1",
+          "viewDistance": "5",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "6",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileVeteranPack",
+          "replacement": "0",
+          "spriteName": "H_Aelys",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "242",
+          "spawnId": "242",
+          "race": "UNHALLOWED",
+          "battleStats": {
+            "name": "Nehanash",
+            "defaultLevel": "7",
+            "abilityScores": {
+              "strength": { "score": "8" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "11" },
+              "intellegence": { "score": "20" },
+              "wisdom": { "score": "15" },
+              "charisma": { "score": "4" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": {
+                "id": "22",
+                "slotType": "MAIN_HAND"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Undead",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Wizard",
+                "hitDie": "4",
+                "fortitudeProgression": "Slow",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Average"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Undead",
+                "CursingTouch",
+                "MissileImmunity",
+                "SpellPenetration",
+                "Caster",
+                "DeathCircle",
+                "Warlock",
+                "Cryomancer",
+                "Auramancer",
+                "RandomAbility"
+              ]
+            },
+            "spellResistance": "5",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "CHAMPION",
+            "fameReq": "40",
+            "movementSpeed": "4",
+            "mana": "20",
+            "defaultMana": "10",
+            "tacticalSpells": {
+              "int": [
+                "67",
+                "66",
+                "86",
+                "96",
+                "114"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "2",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "10",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileVeteranPack",
+          "replacement": "0",
+          "spriteName": "H_Nehanash",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "247",
+          "spawnId": "247",
+          "race": "ANIMALS",
+          "battleStats": {
+            "name": "Keen Master",
+            "defaultLevel": "4",
+            "abilityScores": {
+              "strength": { "score": "14" },
+              "dexterity": { "score": "18" },
+              "constitution": { "score": "14" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "17" },
+              "charisma": { "score": "5" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "1",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": [
+                {
+                  "id": "0",
+                  "slotType": "MAIN_HAND"
+                },
+                {
+                  "id": "26",
+                  "slotType": "CHEST"
+                },
+                {
+                  "id": "0",
+                  "slotType": "OFF_HAND"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "10"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "10",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Blademaster",
+                "Blademaster",
+                "ClearMind",
+                "DualWielding",
+                "RandomAbility",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "20",
+            "movementSpeed": "4"
+          },
+          "productionCost": "1",
+          "viewDistance": "5",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "4",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileHeroesPack",
+          "replacement": "0",
+          "spriteName": "H_Keen",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "249",
+          "spawnId": "249",
+          "race": "HIGH_MEN",
+          "battleStats": {
+            "name": "Tainted Master",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "6" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "10" },
+              "intellegence": { "score": "18" },
+              "wisdom": { "score": "17" },
+              "charisma": { "score": "7" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": {
+                "id": "22",
+                "slotType": "MAIN_HAND"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Wizard",
+                "hitDie": "4",
+                "fortitudeProgression": "Slow",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Average"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Summoner",
+                "ClearMind",
+                "Caster",
+                "SummoningCircle",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "10",
+            "movementSpeed": "4",
+            "mana": "16",
+            "defaultMana": "8",
+            "tacticalSpells": {
+              "int": [
+                "114",
+                "176"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "4",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "6",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileHeroesPack",
+          "replacement": "0",
+          "spriteName": "H_Tainted",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "246",
+          "spawnId": "246",
+          "race": "HIGH_MEN",
+          "battleStats": {
+            "name": "Fuligin Master",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "8" },
+              "dexterity": { "score": "18" },
+              "constitution": { "score": "10" },
+              "intellegence": { "score": "18" },
+              "wisdom": { "score": "15" },
+              "charisma": { "score": "7" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": {
+                "id": "22",
+                "slotType": "MAIN_HAND"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Wizard",
+                "hitDie": "4",
+                "fortitudeProgression": "Slow",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Average"
+              }
+            },
+            "damageImunities": { "DamageType": "NegativeEnergy" },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Invisibility",
+                "ClearMind",
+                "MissileImmunity",
+                "Caster",
+                "DeathCircle",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "10",
+            "movementSpeed": "4",
+            "mana": "18",
+            "defaultMana": "9",
+            "tacticalSpells": {
+              "int": [
+                "66",
+                "67",
+                "73",
+                "75",
+                "95"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "4",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "6",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileHeroesPack",
+          "replacement": "0",
+          "spriteName": "H_Fuligin",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "CASTER" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "248",
+          "spawnId": "248",
+          "race": "HIGH_MEN",
+          "battleStats": {
+            "name": "Pale Master",
+            "defaultLevel": "5",
+            "abilityScores": {
+              "strength": { "score": "5" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "7" },
+              "intellegence": { "score": "22" },
+              "wisdom": { "score": "20" },
+              "charisma": { "score": "17" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Wizard",
+                "hitDie": "4",
+                "fortitudeProgression": "Slow",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Average"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Healer",
+                "ClearMind",
+                "MissileImmunity",
+                "Caster",
+                "BiomancyCircle",
+                "Living",
+                "Enchanter",
+                "Enchanter",
+                "Sage",
+                "SpellPenetration"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "HERO",
+            "fameReq": "20",
+            "movementSpeed": "4",
+            "mana": "18",
+            "defaultMana": "9",
+            "tacticalSpells": {
+              "int": [
+                "63",
+                "66",
+                "67",
+                "73",
+                "95",
+                "96"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "4",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "8",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileHeroesPack",
+          "replacement": "0",
+          "spriteName": "H_Pale",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "CASTER" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "245",
+          "spawnId": "245",
+          "race": "HIGH_MEN",
+          "battleStats": {
+            "name": "Ancient Master",
+            "defaultLevel": "7",
+            "abilityScores": {
+              "strength": { "score": "8" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "10" },
+              "intellegence": { "score": "25" },
+              "wisdom": { "score": "27" },
+              "charisma": { "score": "18" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "2",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "1",
+                    "dieType": "4",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "itemsFromXml": {
+              "ItemFromXml": {
+                "id": "22",
+                "slotType": "MAIN_HAND"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "0",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Wizard",
+                "hitDie": "4",
+                "fortitudeProgression": "Slow",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Average"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Warlock",
+                "Cryomancer",
+                "Auramancer",
+                "ClearMind",
+                "MissileImmunity",
+                "Caster",
+                "MentalismCircle",
+                "Enchanter",
+                "Enchanter",
+                "Living"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S1x1",
+            "type": "CHAMPION",
+            "fameReq": "40",
+            "movementSpeed": "4",
+            "mana": "25",
+            "defaultMana": "10",
+            "tacticalSpells": {
+              "int": [
+                "36",
+                "96",
+                "221",
+                "222",
+                "342",
+                "347"
+              ]
+            }
+          },
+          "productionCost": "1",
+          "viewDistance": "4",
+          "requiredBuildings": { "WFCityBuildingType": "MONUMENT" },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "12",
+          "neUpkeepCost": "0",
+          "experienceYield": "100",
+          "dlc": "MobileHeroesPack",
+          "replacement": "0",
+          "spriteName": "H_Arcane",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "CASTER" },
+          "arenaDisable": "true"
+        },
+        {
+          "id": "350",
+          "spawnId": "350",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Bethos",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "28" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "24" },
+              "intellegence": { "score": "8" },
+              "wisdom": { "score": "8" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "3",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Bludgeoning",
+                      "addAttackDamageBonus": "0",
+                      "count": "4",
+                      "dieType": "6",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Bludgeoning",
+                      "addAttackDamageBonus": "0",
+                      "count": "1",
+                      "dieType": "6",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "7",
+              "maxDexterityBonus": "0"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "24",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": {
+                "type": "Mundane",
+                "amount": "5"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Living",
+                "LongReach",
+                "Mountaineer",
+                "IllusionImmunity",
+                "AuraofHeroism",
+                "Armsmaster"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "4"
+          },
+          "productionCost": "10002000",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "5",
+          "goldUpkeepCost": "50",
+          "neUpkeepCost": "0",
+          "experienceYield": "600",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_Bethos",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "351",
+          "spawnId": "351",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Javen",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "22" },
+              "dexterity": { "score": "22" },
+              "constitution": { "score": "20" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "14" },
+              "charisma": { "score": "12" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "3",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Piercing",
+                      "addAttackDamageBonus": "0",
+                      "count": "5",
+                      "dieType": "4",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "2",
+                    "dieType": "3",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "3",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Piercing",
+                      "addAttackDamageBonus": "0",
+                      "count": "2",
+                      "dieType": "4",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "2",
+                    "dieType": "3",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "3",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Magical",
+                      "damageType": "Piercing",
+                      "addAttackDamageBonus": "0",
+                      "count": "2",
+                      "dieType": "6",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "2",
+                    "dieType": "3",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "4",
+              "maxDexterityBonus": "12"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "20",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Fast",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": [
+                {
+                  "type": "Mundane",
+                  "amount": "5"
+                },
+                {
+                  "type": "Elemental",
+                  "amount": "5"
+                }
+              ]
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Living",
+                "LongReach",
+                "BleedingAttack",
+                "CursingTouch",
+                "IllusionImmunity",
+                "ImprovedEvasion",
+                "PoisonImmunity"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "5"
+          },
+          "productionCost": "10002000",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "5",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "20",
+          "foodUpkeepCost": "10",
+          "goldUpkeepCost": "20",
+          "neUpkeepCost": "0",
+          "experienceYield": "600",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_Javen",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "352",
+          "spawnId": "352",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Kwherezimian",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "26" },
+              "dexterity": { "score": "12" },
+              "constitution": { "score": "20" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "14" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "OffHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Bludgeoning",
+                      "addAttackDamageBonus": "0",
+                      "count": "2",
+                      "dieType": "8",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "19",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Slashing",
+                      "addAttackDamageBonus": "0",
+                      "count": "3",
+                      "dieType": "6",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "12",
+              "maxDexterityBonus": "0"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "18",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": [
+                {
+                  "type": "Mundane",
+                  "amount": "25"
+                },
+                {
+                  "type": "Elemental",
+                  "amount": "25"
+                }
+              ]
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Construct",
+                "LongReach",
+                "ClearMind",
+                "IllusionImmunity",
+                "WallCrusher"
+              ]
+            },
+            "spellResistance": "20",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "4"
+          },
+          "productionCost": "15001500",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "0",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "10",
+          "neUpkeepCost": "0",
+          "experienceYield": "300",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "t_kwherezmian",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "353",
+          "spawnId": "353",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Lamia",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "22" },
+              "dexterity": { "score": "18" },
+              "constitution": { "score": "18" },
+              "intellegence": { "score": "18" },
+              "wisdom": { "score": "18" },
+              "charisma": { "score": "18" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "18",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Magical",
+                      "damageType": "Slashing",
+                      "addAttackDamageBonus": "0",
+                      "count": "3",
+                      "dieType": "4",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Magical",
+                      "damageType": "Bludgeoning",
+                      "addAttackDamageBonus": "0",
+                      "count": "2",
+                      "dieType": "4",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "5",
+              "maxDexterityBonus": "10"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "18",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Fast",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Living",
+                "LongReach",
+                "Armsmaster",
+                "IllusionImmunity",
+                "Caster"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "5",
+            "mana": "90",
+            "tacticalSpells": {
+              "int": [
+                "89",
+                "101",
+                "317",
+                "337",
+                "347",
+                "357",
+                "366"
+              ]
+            }
+          },
+          "productionCost": "20001000",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "AMPHIBIAN",
+            "points": "5",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "15",
+          "foodUpkeepCost": "2",
+          "goldUpkeepCost": "30",
+          "neUpkeepCost": "0",
+          "experienceYield": "300",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_Lamia",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "354",
+          "spawnId": "354",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Magmat",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "26" },
+              "dexterity": { "score": "6" },
+              "constitution": { "score": "34" },
+              "intellegence": { "score": "8" },
+              "wisdom": { "score": "11" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": [
+                      {
+                        "weaponType": "Mundane",
+                        "damageType": "Bludgeoning",
+                        "addAttackDamageBonus": "0",
+                        "count": "2",
+                        "dieType": "8",
+                        "damageBonus": "0"
+                      },
+                      {
+                        "weaponType": "Elemental",
+                        "damageType": "Fire",
+                        "addAttackDamageBonus": "0",
+                        "count": "3",
+                        "dieType": "4",
+                        "damageBonus": "0"
+                      }
+                    ]
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "TwoHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": [
+                      {
+                        "weaponType": "Mundane",
+                        "damageType": "Bludgeoning",
+                        "addAttackDamageBonus": "0",
+                        "count": "2",
+                        "dieType": "4",
+                        "damageBonus": "0"
+                      },
+                      {
+                        "weaponType": "Elemental",
+                        "damageType": "Fire",
+                        "addAttackDamageBonus": "0",
+                        "count": "3",
+                        "dieType": "6",
+                        "damageBonus": "0"
+                      }
+                    ]
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "5",
+              "maxDexterityBonus": "7"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "22",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "damageVulnerabilities": {
+              "DamageVulnerability": {
+                "type": "Cold",
+                "amount": "0.25"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": {
+                "type": "Mundane",
+                "amount": "5"
+              }
+            },
+            "damageImunities": { "DamageType": "Fire" },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Living",
+                "LongReach",
+                "FieryAura",
+                "IllusionImmunity"
+              ]
+            },
+            "spellResistance": "10",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "4"
+          },
+          "productionCost": "20001000",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "10",
+          "foodUpkeepCost": "10",
+          "goldUpkeepCost": "10",
+          "neUpkeepCost": "0",
+          "experienceYield": "600",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_Magmat",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "355",
+          "spawnId": "355",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "ShadeofNight",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "22" },
+              "dexterity": { "score": "16" },
+              "constitution": { "score": "16" },
+              "intellegence": { "score": "8" },
+              "wisdom": { "score": "18" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "MainHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": [
+                      {
+                        "weaponType": "Magical",
+                        "damageType": "Slashing",
+                        "addAttackDamageBonus": "0",
+                        "count": "2",
+                        "dieType": "6",
+                        "damageBonus": "0"
+                      },
+                      {
+                        "weaponType": "Magical",
+                        "damageType": "NegativeEnergy",
+                        "addAttackDamageBonus": "0",
+                        "count": "2",
+                        "dieType": "6",
+                        "damageBonus": "0"
+                      }
+                    ]
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "OffHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": [
+                      {
+                        "weaponType": "Magical",
+                        "damageType": "Slashing",
+                        "addAttackDamageBonus": "0",
+                        "count": "2",
+                        "dieType": "6",
+                        "damageBonus": "0"
+                      },
+                      {
+                        "weaponType": "Magical",
+                        "damageType": "NegativeEnergy",
+                        "addAttackDamageBonus": "0",
+                        "count": "2",
+                        "dieType": "6",
+                        "damageBonus": "0"
+                      }
+                    ]
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "5",
+              "maxDexterityBonus": "9"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "16",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Slow",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": {
+                "type": "Mundane",
+                "amount": "15"
+              }
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Undead",
+                "LongReach",
+                "DrainLife",
+                "CreateUndead",
+                "IllusionImmunity"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "4"
+          },
+          "productionCost": "25000500",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "FLYER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "50",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "10",
+          "neUpkeepCost": "0",
+          "experienceYield": "450",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_ShadeofNight",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "356",
+          "spawnId": "356",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Tandatilis",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "30" },
+              "dexterity": { "score": "10" },
+              "constitution": { "score": "24" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "18" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "TwoHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Magical",
+                      "damageType": "Bludgeoning",
+                      "addAttackDamageBonus": "0",
+                      "count": "3",
+                      "dieType": "6",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "OffHand",
+                  "additionalAttackBonus": "2",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Magical",
+                      "damageType": "Acid",
+                      "addAttackDamageBonus": "0",
+                      "count": "3",
+                      "dieType": "4",
+                      "damageBonus": "-2"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "1"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "10",
+              "maxDexterityBonus": "0"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "22",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "damageVulnerabilities": {
+              "DamageVulnerability": {
+                "type": "Fire",
+                "amount": "0.25"
+              }
+            },
+            "damageResistances": {
+              "DamageResistance": {
+                "type": "Cold",
+                "amount": "20"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": {
+                "type": "Mundane",
+                "amount": "10"
+              }
+            },
+            "damageImunities": {
+              "DamageType": [
+                "Acid",
+                "Electricity"
+              ]
+            },
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Regeneration",
+                "LongReach",
+                "Forester",
+                "Mountaineer",
+                "Swampdweller",
+                "IllusionImmunity",
+                "StoningImmunity",
+                "PoisonImmunity",
+                "Construct"
+              ]
+            },
+            "spellResistance": "0",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "3"
+          },
+          "productionCost": "15001500",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "3",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "5",
+          "foodUpkeepCost": "15",
+          "goldUpkeepCost": "10",
+          "neUpkeepCost": "0",
+          "experienceYield": "500",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_Tandatilis",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "357",
+          "spawnId": "357",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Dhimmon",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "26" },
+              "dexterity": { "score": "18" },
+              "constitution": { "score": "22" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "16" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "TwoHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "4",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Magical",
+                    "damageType": "Slashing",
+                    "addAttackDamageBonus": "0",
+                    "count": "3",
+                    "dieType": "10",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "10",
+              "maxDexterityBonus": "0"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "22",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "damageResistances": {
+              "DamageResistance": {
+                "type": "Fire",
+                "amount": "20"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": {
+                "type": "Mundane",
+                "amount": "5"
+              }
+            },
+            "damageImunities": "
+				",
+            "specialAbilites": {
+              "SpecialAbility": [
+                "Flying",
+                "Fear",
+                "IllusionImmunity",
+                "Living",
+                "ManaDrain"
+              ]
+            },
+            "spellResistance": "10",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "6"
+          },
+          "productionCost": "15001500",
+          "viewDistance": "4",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "FLYER",
+            "points": "6",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "25",
+          "foodUpkeepCost": "2",
+          "goldUpkeepCost": "15",
+          "neUpkeepCost": "0",
+          "experienceYield": "500",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_Dhimmon",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "358",
+          "spawnId": "358",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "Mark VI",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "22" },
+              "dexterity": { "score": "4" },
+              "constitution": { "score": "33" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "11" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": [
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "TwoHand",
+                  "additionalAttackBonus": "-5",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Bludgeoning",
+                      "addAttackDamageBonus": "0",
+                      "count": "3",
+                      "dieType": "6",
+                      "damageBonus": "0"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                },
+                {
+                  "attackType": "MeleeNormal",
+                  "wielding": "TwoHand",
+                  "additionalAttackBonus": "-5",
+                  "criticalRange": "20",
+                  "criticalMultiplier": "2",
+                  "diceList": {
+                    "DamageDie": {
+                      "weaponType": "Mundane",
+                      "damageType": "Acid",
+                      "addAttackDamageBonus": "0",
+                      "count": "3",
+                      "dieType": "4",
+                      "damageBonus": "-2"
+                    }
+                  },
+                  "rangeIncrement": "0",
+                  "poison": "0",
+                  "gazePoisonDie": {
+                    "weaponType": "Mundane",
+                    "damageType": "Acid",
+                    "addAttackDamageBonus": "0",
+                    "count": "0",
+                    "dieType": "0",
+                    "damageBonus": "0"
+                  },
+                  "gazeType": "Doom",
+                  "gazePoisonLevel": "0",
+                  "touch": "0"
+                }
+              ]
+            },
+            "armorClassInfo": {
+              "armorBonus": "2",
+              "maxDexterityBonus": "0"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "24",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "damageResistances": {
+              "DamageResistance": {
+                "type": "Fire",
+                "amount": "20"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": {
+                "type": "Mundane",
+                "amount": "25"
+              }
+            },
+            "damageImunities": "
+				",
+            "specialAbilites": {
+              "SpecialAbility": [
+                "IllusionImmunity",
+                "Construct",
+                "ClearMind"
+              ]
+            },
+            "spellResistance": "20",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "3"
+          },
+          "productionCost": "5002500",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "3",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "15",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "35",
+          "neUpkeepCost": "0",
+          "experienceYield": "500",
+          "dlc": "NONE",
+          "replacement": "0",
+          "spriteName": "T_MarkVI",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        },
+        {
+          "id": "359",
+          "spawnId": "359",
+          "race": "TITANS",
+          "battleStats": {
+            "name": "The Last Uruthian",
+            "defaultLevel": "15",
+            "abilityScores": {
+              "strength": { "score": "22" },
+              "dexterity": { "score": "14" },
+              "constitution": { "score": "22" },
+              "intellegence": { "score": "12" },
+              "wisdom": { "score": "11" },
+              "charisma": { "score": "8" }
+            },
+            "attacks": {
+              "Attack": {
+                "attackType": "MeleeNormal",
+                "wielding": "MainHand",
+                "additionalAttackBonus": "2",
+                "criticalRange": "20",
+                "criticalMultiplier": "3",
+                "diceList": {
+                  "DamageDie": {
+                    "weaponType": "Magical",
+                    "damageType": "Bludgeoning",
+                    "addAttackDamageBonus": "0",
+                    "count": "3",
+                    "dieType": "12",
+                    "damageBonus": "0"
+                  }
+                },
+                "rangeIncrement": "0",
+                "poison": "0",
+                "gazePoisonDie": {
+                  "weaponType": "Mundane",
+                  "damageType": "Acid",
+                  "addAttackDamageBonus": "0",
+                  "count": "0",
+                  "dieType": "0",
+                  "damageBonus": "0"
+                },
+                "gazeType": "Doom",
+                "gazePoisonLevel": "0",
+                "touch": "0"
+              }
+            },
+            "armorClassInfo": {
+              "armorBonus": "6",
+              "maxDexterityBonus": "0"
+            },
+            "creatureType": "Humanoid",
+            "characterClasses": {
+              "CharacterClass": {
+                "characterClass": "Fighter",
+                "hitDie": "22",
+                "fortitudeProgression": "Fast",
+                "reflexProgression": "Slow",
+                "willProgression": "Fast",
+                "baseAttackProgression": "Fast"
+              }
+            },
+            "weaponResistances": {
+              "WeaponResistance": [
+                {
+                  "type": "Mundane",
+                  "amount": "5"
+                },
+                {
+                  "type": "Elemental",
+                  "amount": "5"
+                }
+              ]
+            },
+            "damageImunities": "
+				",
+            "specialAbilites": {
+              "SpecialAbility": [
+                "IllusionImmunity",
+                "Undead",
+                "ClearMind",
+                "CursingTouch",
+                "Mountaineer",
+                "WallCrusher",
+                "Fear"
+              ]
+            },
+            "spellResistance": "10",
+            "squadCount": "1",
+            "size": "S2x2",
+            "type": "TITAN",
+            "movementSpeed": "4",
+            "tacticalAbilities": { "int": "25" }
+          },
+          "productionCost": "10002000",
+          "viewDistance": "3",
+          "requiredBuildings": {
+            "WFCityBuildingType": [
+              "RUNE_FORGE",
+              "ARMORERS_GUILD"
+            ]
+          },
+          "movement": {
+            "type": "WALKER",
+            "points": "4",
+            "roadMultiplier": "0.5",
+            "forceThisUnit": "false"
+          },
+          "manaUpkeepCost": "10",
+          "foodUpkeepCost": "0",
+          "goldUpkeepCost": "50",
+          "neUpkeepCost": "0",
+          "experienceYield": "500",
+          "dlc": "MobileHeroesPack",
+          "replacement": "0",
+          "spriteName": "T_TheLast",
+          "customAtlasNumber": "-1",
+          "AITypes": { "AIUnitType": "MELEE" }
+        }
+      ]
+    },
+    "dlcItems": {
+      "itemTemplates": {
+        "Item": {
+          "itemID": "1000",
+          "spawnID": "23",
+          "type": "TWOHANDEDW",
+          "subtype": "GREATSWORD",
+          "material": "ADAMANTINE",
+          "name": "Wastelander Sword",
+          "enchancement": "6",
+          "dlc": "MAGIC_ITEM_0"
+        }
+      }
+    },
+    "dlcLords": {
+      "SorcererLordTemplate": [
+        {
+          "id": "7",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "5",
+              "0",
+              "5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": {
+            "DisciplineEnum": [
+              "Channeler",
+              "Pillager"
+            ]
+          },
+          "startingSpells": {
+            "int": [
+              "12",
+              "22",
+              "31",
+              "51",
+              "24",
+              "187",
+              "197",
+              "207",
+              "217",
+              "189"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "MobileRase1"
+        },
+        {
+          "id": "8",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "9",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": { "DisciplineEnum": "MasteryDESTRUCTION" },
+          "startingSpells": {
+            "int": [
+              "22",
+              "83",
+              "145",
+              "207",
+              "269",
+              "330",
+              "24",
+              "147",
+              "209",
+              "333",
+              "86",
+              "211"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "MobileRase2"
+        },
+        {
+          "id": "10",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "4",
+              "4",
+              "0",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": "
+			",
+          "startingSpells": {
+            "int": [
+              "12",
+              "31",
+              "41",
+              "51",
+              "126",
+              "138",
+              "165",
+              "176",
+              "311",
+              "320",
+              "350",
+              "362"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "MobileRace4"
+        },
+        {
+          "id": "12",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0",
+              "1",
+              "0",
+              "5",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": {
+            "DisciplineEnum": [
+              "Artificer",
+              "Geologist"
+            ]
+          },
+          "startingSpells": {
+            "int": [
+              "41",
+              "103",
+              "227",
+              "288",
+              "168",
+              "126",
+              "138",
+              "145",
+              "165",
+              "207"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "MobileRace3"
+        },
+        {
+          "id": "100",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "5",
+              "6",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": { "DisciplineEnum": "Alchemist" },
+          "startingSpells": {
+            "int": [
+              "187",
+              "197",
+              "207",
+              "240",
+              "199",
+              "230",
+              "126",
+              "138",
+              "145",
+              "176",
+              "137"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "0",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "NONE"
+        },
+        {
+          "id": "13",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "9"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": {
+            "DisciplineEnum": [
+              "GateMaster",
+              "Pillager",
+              "Summoner"
+            ]
+          },
+          "startingSpells": {
+            "int": [
+              "51",
+              "113",
+              "176",
+              "240",
+              "362",
+              "54",
+              "114",
+              "175",
+              "241"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "NONE"
+        },
+        {
+          "id": "14",
+          "tiers": {
+            "int": [
+              "5",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "8",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": {
+            "DisciplineEnum": [
+              "Ascetic",
+              "Healer"
+            ]
+          },
+          "startingSpells": {
+            "int": [
+              "41",
+              "165",
+              "227",
+              "288",
+              "350",
+              "44",
+              "290",
+              "352",
+              "250",
+              "259",
+              "269",
+              "279",
+              "280"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "NONE"
+        },
+        {
+          "id": "15",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "9",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": { "DisciplineEnum": "MasteryBIOMANCY" },
+          "startingSpells": {
+            "int": [
+              "12",
+              "73",
+              "138",
+              "197",
+              "259",
+              "320",
+              "13",
+              "76",
+              "137",
+              "199",
+              "15",
+              "64"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "NONE"
+        },
+        {
+          "id": "16",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "6",
+              "6",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": {
+            "DisciplineEnum": [
+              "Battlecaster",
+              "Butcher"
+            ]
+          },
+          "startingSpells": {
+            "int": [
+              "311",
+              "320",
+              "330",
+              "340",
+              "310",
+              "323",
+              "1",
+              "126",
+              "187",
+              "250",
+              "127",
+              "252"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "NONE"
+        },
+        {
+          "id": "17",
+          "tiers": {
+            "int": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "9",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": { "DisciplineEnum": "MasteryFIRE" },
+          "startingSpells": {
+            "int": [
+              "187",
+              "197",
+              "207",
+              "218",
+              "227",
+              "240",
+              "189",
+              "199",
+              "209",
+              "217",
+              "191",
+              "211"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "NONE"
+        },
+        {
+          "id": "18",
+          "tiers": {
+            "int": [
+              "0",
+              "4",
+              "0",
+              "0",
+              "0",
+              "4",
+              "0",
+              "4",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          },
+          "basePower": "15",
+          "disciplines": "
+			",
+          "startingSpells": {
+            "int": [
+              "63",
+              "83",
+              "93",
+              "103",
+              "311",
+              "330",
+              "340",
+              "362",
+              "12",
+              "73",
+              "259",
+              "320"
+            ]
+          },
+          "startGold": "50",
+          "startMana": "30",
+          "AIID": "5",
+          "baseGoldIncome": "0",
+          "startSpellcraft": "30",
+          "dlc": "MobileVeteranPack"
+        }
+      ]
+    },
+    "aiCheats": {
+      "AICheatConsts": [
+        {
+          "level": "0",
+          "productionBoost": "1",
+          "productionBoostMult": "1",
+          "winFeaturesBattlesCityRangePercent": "0.1",
+          "winFeaturesBattlesTurnCount": "30",
+          "freeScoutCitiesCount": "5",
+          "freeScoutScoutCount": "0",
+          "quickEndBuildTurn": "0",
+          "freeSettlerQQMod": "0.5",
+          "toHitRollAdd": "0",
+          "toSaveRollAdd": "0",
+          "positiveEventChanceAdd": "0.1",
+          "roamingAttackMod": "0.5",
+          "attackRoamingAddRoll": "6",
+          "freeItemTurnCount": "50",
+          "goldIncomeMult": "1",
+          "powerIncomeMult": "1",
+          "foodIncomeMult": "1",
+          "populationIncomeMult": "1",
+          "productionIncomeMult": "1",
+          "neIncomeMult": "1",
+          "neutralsProductionMult": "1",
+          "ordersRangeMult": "1",
+          "heroFromFeatureChanceAdd": "0",
+          "tiersAdd": "0",
+          "HLPlayerMod": "15",
+          "startPowerMod": "2",
+          "freeXPTurn": "1",
+          "freeXPAdd": "20",
+          "freeGoldTurn": "100",
+          "freeGold": "1",
+          "freeManaTurn": "100",
+          "freeMana": "1",
+          "positiveEventChancePlayerAdd": "0",
+          "maxUnitsAICanAdd": "1"
+        },
+        {
+          "level": "1",
+          "productionBoost": "1",
+          "productionBoostMult": "1",
+          "winFeaturesBattlesCityRangePercent": "0.1",
+          "winFeaturesBattlesTurnCount": "50",
+          "freeScoutCitiesCount": "5",
+          "freeScoutScoutCount": "0",
+          "quickEndBuildTurn": "0",
+          "freeSettlerQQMod": "0.5",
+          "toHitRollAdd": "0",
+          "toSaveRollAdd": "0",
+          "positiveEventChanceAdd": "0.1",
+          "roamingAttackMod": "0.5",
+          "attackRoamingAddRoll": "6",
+          "freeItemTurnCount": "50",
+          "goldIncomeMult": "1.1",
+          "powerIncomeMult": "1.1",
+          "foodIncomeMult": "1.1",
+          "populationIncomeMult": "1.1",
+          "productionIncomeMult": "1.1",
+          "neIncomeMult": "1.1",
+          "neutralsProductionMult": "1",
+          "ordersRangeMult": "1.1",
+          "heroFromFeatureChanceAdd": "0",
+          "tiersAdd": "0",
+          "HLPlayerMod": "5",
+          "startPowerMod": "1.5",
+          "freeXPTurn": "1",
+          "freeXPAdd": "25",
+          "freeGoldTurn": "10",
+          "freeGold": "25",
+          "freeManaTurn": "10",
+          "freeMana": "25",
+          "positiveEventChancePlayerAdd": "0",
+          "maxUnitsAICanAdd": "3"
+        },
+        {
+          "level": "2",
+          "productionBoost": "1.1",
+          "productionBoostMult": "1.25",
+          "winFeaturesBattlesCityRangePercent": "0.15",
+          "winFeaturesBattlesTurnCount": "50",
+          "freeScoutCitiesCount": "5",
+          "freeScoutScoutCount": "0",
+          "quickEndBuildTurn": "0",
+          "freeSettlerQQMod": "0.5",
+          "toHitRollAdd": "0",
+          "toSaveRollAdd": "0",
+          "positiveEventChanceAdd": "0.1",
+          "roamingAttackMod": "0.25",
+          "attackRoamingAddRoll": "6",
+          "freeItemTurnCount": "45",
+          "goldIncomeMult": "1.25",
+          "powerIncomeMult": "1.25",
+          "foodIncomeMult": "1.25",
+          "populationIncomeMult": "1.25",
+          "productionIncomeMult": "1.25",
+          "neIncomeMult": "1",
+          "neutralsProductionMult": "1",
+          "ordersRangeMult": "1",
+          "heroFromFeatureChanceAdd": "0",
+          "tiersAdd": "0",
+          "HLPlayerMod": "0",
+          "startPowerMod": "1",
+          "freeXPTurn": "1",
+          "freeXPAdd": "50",
+          "freeGoldTurn": "10",
+          "freeGold": "50",
+          "freeManaTurn": "10",
+          "freeMana": "50",
+          "positiveEventChancePlayerAdd": "0",
+          "maxUnitsAICanAdd": "5"
+        },
+        {
+          "level": "3",
+          "productionBoost": "1.2",
+          "productionBoostMult": "1.5",
+          "winFeaturesBattlesCityRangePercent": "0.2",
+          "winFeaturesBattlesTurnCount": "50",
+          "freeScoutCitiesCount": "5",
+          "freeScoutScoutCount": "0",
+          "quickEndBuildTurn": "2",
+          "freeSettlerQQMod": "1",
+          "toHitRollAdd": "3",
+          "toSaveRollAdd": "3",
+          "positiveEventChanceAdd": "0.1",
+          "roamingAttackMod": "0.25",
+          "attackRoamingAddRoll": "6",
+          "freeItemTurnCount": "40",
+          "goldIncomeMult": "1.4",
+          "powerIncomeMult": "1.4",
+          "foodIncomeMult": "1.4",
+          "populationIncomeMult": "1.4",
+          "productionIncomeMult": "1.4",
+          "neIncomeMult": "1.4",
+          "neutralsProductionMult": "1.4",
+          "ordersRangeMult": "1.2",
+          "heroFromFeatureChanceAdd": "0.2",
+          "tiersAdd": "2",
+          "HLPlayerMod": "-10",
+          "startPowerMod": "1",
+          "freeXPTurn": "1",
+          "freeXPAdd": "75",
+          "freeGoldTurn": "10",
+          "freeGold": "75",
+          "freeManaTurn": "10",
+          "freeMana": "75",
+          "positiveEventChancePlayerAdd": "-0.15",
+          "maxUnitsAICanAdd": "7"
+        },
+        {
+          "level": "4",
+          "productionBoost": "1.3",
+          "productionBoostMult": "1.75",
+          "winFeaturesBattlesCityRangePercent": "0.25",
+          "winFeaturesBattlesTurnCount": "2",
+          "freeScoutCitiesCount": "5",
+          "freeScoutScoutCount": "0",
+          "quickEndBuildTurn": "2",
+          "freeSettlerQQMod": "1",
+          "toHitRollAdd": "3",
+          "toSaveRollAdd": "3",
+          "positiveEventChanceAdd": "0.1",
+          "roamingAttackMod": "0.25",
+          "attackRoamingAddRoll": "6",
+          "freeItemTurnCount": "30",
+          "goldIncomeMult": "1.75",
+          "powerIncomeMult": "1.75",
+          "foodIncomeMult": "1.75",
+          "populationIncomeMult": "1.75",
+          "productionIncomeMult": "1.75",
+          "neIncomeMult": "1.75",
+          "neutralsProductionMult": "1.5",
+          "ordersRangeMult": "1.2",
+          "heroFromFeatureChanceAdd": "0.4",
+          "tiersAdd": "4",
+          "HLPlayerMod": "0",
+          "startPowerMod": "1",
+          "freeXPTurn": "1",
+          "freeXPAdd": "100",
+          "freeGoldTurn": "10",
+          "freeGold": "100",
+          "freeManaTurn": "10",
+          "freeMana": "100",
+          "positiveEventChancePlayerAdd": "-0.3",
+          "maxUnitsAICanAdd": "9"
+        }
+      ]
+    }
+  }
+}
