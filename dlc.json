@@ -2866,8 +2866,7 @@
                 "amount": "5"
               }
             },
-            "damageImunities": "
-				",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Flying",
@@ -3014,8 +3013,7 @@
                 "amount": "25"
               }
             },
-            "damageImunities": "
-				",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "IllusionImmunity",
@@ -3128,8 +3126,7 @@
                 }
               ]
             },
-            "damageImunities": "
-				",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "IllusionImmunity",
@@ -3299,8 +3296,7 @@
             ]
           },
           "basePower": "15",
-          "disciplines": "
-			",
+          "disciplines": "",
           "startingSpells": {
             "int": [
               "12",
@@ -3660,8 +3656,7 @@
             ]
           },
           "basePower": "15",
-          "disciplines": "
-			",
+          "disciplines": "",
           "startingSpells": {
             "int": [
               "63",

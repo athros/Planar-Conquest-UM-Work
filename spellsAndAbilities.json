@@ -2857,8 +2857,7 @@
           "customAtlasNumber": "-1",
           "spellVisualType": "OnEachTarget",
           "meleeEffectiveness": "0.7",
-          "#text": "0000000000
-            ",
+          "#text": "0000000000",
           "rangedEffectiveness": "0.7",
           "tankEffectiveness": "0.5",
           "supportEffectiveness": "0",
@@ -5818,8 +5817,7 @@
           "manaCastCost": "75",
           "increaseManaCost": "25",
           "overloadEffect": {
-            "DispelInfusion": "
-				"
+            "DispelInfusion": ""
           },
           "allowsSavingThrow": "0",
           "savingThrowTypes": "Fortitude",
@@ -10239,8 +10237,7 @@
           "manaCastCost": "400",
           "increaseManaCost": "50",
           "overloadEffect": {
-            "DispelInfusion": "
-				"
+            "DispelInfusion": ""
           },
           "allowsSavingThrow": "0",
           "savingThrowTypes": "Reflex",
@@ -12131,8 +12128,7 @@
           "manaCastCost": "50",
           "increaseManaCost": "20",
           "overloadEffect": {
-            "DispelInfusion": "
-				"
+            "DispelInfusion": ""
           },
           "allowsSavingThrow": "0",
           "savingThrowTypes": "Fortitude",
@@ -12164,8 +12160,7 @@
           "manaCastCost": "200",
           "increaseManaCost": "75",
           "overloadEffect": {
-            "DispelInfusion": "
-				"
+            "DispelInfusion": ""
           },
           "allowsSavingThrow": "0",
           "savingThrowTypes": "Fortitude",
