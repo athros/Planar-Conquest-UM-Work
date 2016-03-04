@@ -1125,8 +1125,7 @@
                 "baseAttackProgression": "Average"
               }
             },
-            "damageImunities": "
-        ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Undead",
@@ -1212,8 +1211,7 @@
                 "baseAttackProgression": "Average"
               }
             },
-            "damageImunities": "
-        ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Undead",
@@ -1322,8 +1320,7 @@
                 "baseAttackProgression": "Average"
               }
             },
-            "damageImunities": "
-        ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Caster",
@@ -8641,8 +8638,7 @@
                 "amount": "40"
               }
             },
-            "weaponResistances": "
-        ",
+            "weaponResistances": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Fear",
@@ -8915,8 +8911,7 @@
                 "amount": "0.25"
               }
             },
-            "damageResistances": "
-        ",
+            "damageResistances": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Undead",
@@ -10587,8 +10582,7 @@
                 "amount": "1"
               }
             },
-            "weaponResistances": "
-        ",
+            "weaponResistances": "",
             "damageImunities": { "DamageType": "Fire" },
             "specialAbilites": {
               "SpecialAbility": [
@@ -10967,8 +10961,7 @@
                   "additionalAttackBonus": "3",
                   "criticalRange": "20",
                   "criticalMultiplier": "2",
-                  "diceList": "
-                        ",
+                  "diceList": "",
                   "rangeIncrement": "0",
                   "poison": "0",
                   "gazePoisonDie": {
@@ -10989,8 +10982,7 @@
                   "additionalAttackBonus": "3",
                   "criticalRange": "20",
                   "criticalMultiplier": "2",
-                  "diceList": "
-                        ",
+                  "diceList": "",
                   "rangeIncrement": "0",
                   "poison": "0",
                   "gazePoisonDie": {
@@ -11011,8 +11003,7 @@
                   "additionalAttackBonus": "3",
                   "criticalRange": "20",
                   "criticalMultiplier": "2",
-                  "diceList": "
-                        ",
+                  "diceList": "",
                   "rangeIncrement": "0",
                   "poison": "0",
                   "gazePoisonDie": {
@@ -11153,8 +11144,7 @@
                 "amount": "40"
               }
             },
-            "weaponResistances": "
-        ",
+            "weaponResistances": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Fear",
@@ -11249,8 +11239,7 @@
                 "baseAttackProgression": "Fast"
               }
             },
-            "damageImunities": "
-                ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "AuraofResistance",
@@ -11344,8 +11333,7 @@
                 "baseAttackProgression": "Fast"
               }
             },
-            "damageImunities": "
-                ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "AuraofCourage",
@@ -11440,8 +11428,7 @@
                 "baseAttackProgression": "Fast"
               }
             },
-            "damageImunities": "
-                ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "AuraofHeroism",
@@ -11622,8 +11609,7 @@
                 "baseAttackProgression": "Fast"
               }
             },
-            "damageImunities": "
-        ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Ethereal",
@@ -14395,8 +14381,7 @@
                 "baseAttackProgression": "Average"
               }
             },
-            "damageImunities": "
-        ",
+            "damageImunities": "",
             "specialAbilites": {
               "SpecialAbility": [
                 "Undead",
@@ -17361,9 +17346,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17422,9 +17405,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17483,9 +17464,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17544,9 +17523,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17605,9 +17582,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17666,9 +17641,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17727,9 +17700,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
@@ -17788,9 +17759,7 @@
               "wisdom": { "score": "10" },
               "charisma": { "score": "10" }
             },
-            "attacks": "
-          
-        ",
+            "attacks": "",
             "armorClassInfo": {
               "armorBonus": "0",
               "maxDexterityBonus": "10"
