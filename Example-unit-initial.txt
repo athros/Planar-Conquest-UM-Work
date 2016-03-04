@@ -1,0 +1,168 @@
+------START-----
+
+
+-----requiredBuildings start-----
+WFCityBuildingType : SHRINE
+-----requiredBuildings end-----
+
+manaUpkeepCost : 0
+
+customAtlasNumber : -1
+
+
+-----movement start-----
+roadMultiplier : 0.5
+forceThisUnit : false
+type : WALKER
+points : 2
+-----movement end-----
+
+
+-----AITypes start-----
+--AIUnitType start--
+AIUnitType : ['CASTER', 'PURIFY', 'SIPHON']
+--AIUnitType end--
+-----AITypes end-----
+
+id : 4
+
+spawnId : 4
+
+productionCost : 40
+
+viewDistance : 2
+
+experienceYield : 300
+
+foodUpkeepCost : 1
+
+
+-----battleStats start-----
+spellResistance : 0
+type : UNIT
+
+-----abilityScores start-----
+
+-----intellegence start-----
+score : 10
+-----intellegence end-----
+
+
+-----constitution start-----
+score : 12
+-----constitution end-----
+
+
+-----charisma start-----
+score : 12
+-----charisma end-----
+
+
+-----strength start-----
+score : 12
+-----strength end-----
+
+
+-----dexterity start-----
+score : 10
+-----dexterity end-----
+
+
+-----wisdom start-----
+score : 14
+-----wisdom end-----
+
+-----abilityScores end-----
+
+defaultLevel : 2
+
+-----characterClasses start-----
+
+-----CharacterClass start-----
+hitDie : 6
+baseAttackProgression : Average
+characterClass : Cleric
+reflexProgression : Slow
+willProgression : Fast
+fortitudeProgression : Fast
+-----CharacterClass end-----
+
+-----characterClasses end-----
+
+squadCount : 4
+
+-----attacks start-----
+
+-----Attack start-----
+gazeType : Doom
+gazePoisonLevel : 0
+criticalRange : 20
+rangeIncrement : 0
+criticalMultiplier : 2
+additionalAttackBonus : 3
+
+-----diceList start-----
+
+-----DamageDie start-----
+damageType : Bludgeoning
+damageBonus : 0
+weaponType : Mundane
+addAttackDamageBonus : 0
+count : 1
+dieType : 8
+-----DamageDie end-----
+
+-----diceList end-----
+
+poison : 0
+wielding : MainHand
+attackType : MeleeNormal
+touch : 0
+-----Attack end-----
+
+-----attacks end-----
+
+
+-----tacticalSpells start-----
+--int start--
+int : ['250', '252', '259', '269', '288']
+--int end--
+-----tacticalSpells end-----
+
+movementSpeed : 2
+creatureType : Humanoid
+mana : 20
+
+-----strategicAbilities start-----
+--int start--
+int : ['1', '4']
+--int end--
+-----strategicAbilities end-----
+
+size : S1x1
+
+-----specialAbilites start-----
+--SpecialAbility start--
+SpecialAbility : ['Caster', 'Living']
+--SpecialAbility end--
+-----specialAbilites end-----
+
+name : Clerics
+
+-----armorClassInfo start-----
+armorBonus : 6
+maxDexterityBonus : 2
+-----armorClassInfo end-----
+
+-----battleStats end-----
+
+spriteName : HM_Cleric
+
+neUpkeepCost : 0
+
+goldUpkeepCost : 2
+
+race : HIGH_MEN
+
+
+-----END-----
