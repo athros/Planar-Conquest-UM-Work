@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 import json
 
 def explode_list(key, s_dict):
-    ''' Run through a list piece by piece '''
-    print('\n-----%s start-----' % key)   
+    ''' Run through a list/dict piece by piece '''
+    print('\n-----%s start-----' % key)
     for k, v in s_dict.items():
         if isinstance(v, dict):
             #print(k + ' : ' + str(v))
@@ -40,12 +42,20 @@ full_unitdict = unitdata['WorldUnitTemplatesContainer']
 unitdict = full_unitdict['unitsTemplates']
 walldict = full_unitdict['wallsTemplates']
 
-for item in unitdict['WorldUnitTemplate']:
-    if item['race'] == 'HIGH_MEN':
+'''for item in unitdict['WorldUnitTemplate']:
+    if item['race'] == 'HIGH_MEN' and item['battleStats']['name'] == 'Clerics':
         print('\n------START-----\n')
         for key in item:
             if isinstance(item[key], (list, dict)):
                 explode_list(key, item[key])
             else:
                 print(key + ' : ' + str(item[key]) + '\n')
-        print('\n-----END-----')
+        print('\n-----END-----')'''
+
+for item in unitdict['WorldUnitTemplate']:
+    print('Unit name: %s' % item['battleStats']['name'])
+    print('Unit Race: %s' % item['race'])
+    print('\nUnit Movement Stats:\tType of movement: %s\n\t\t\tMovement Points: %s\n\t\t\tRoad Modifier: %s\n' %
+            (item['movement']['type'], str(item['movement']['points']), str(item['movement']['roadMultiplier'])))
+    print('Upkeep Costs:\tGold: %s\n\t\tMana: %s\n\t\tFood Upkeep: %s\n\t\tNegative Energy: %s\n' %
+          (str(item['goldUpkeepCost']), str(item['manaUpkeepCost']), str(item['foodUpkeepCost']), str(item['neUpkeepCost'])))
