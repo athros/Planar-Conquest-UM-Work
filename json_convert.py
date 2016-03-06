@@ -12,7 +12,6 @@ def explode_list(key, s_dict):
     print('\n-----%s start-----' % key)
     for k, v in s_dict.items():
         if isinstance(v, dict):
-            #print(k + ' : ' + str(v))
             explode_list(k, v)
         # Tactical spells are under tacticalSpells/int 
         elif k == 'int':
@@ -28,14 +27,22 @@ def explode_list(key, s_dict):
             print(k + ' : ' + str(v))
     print('-----%s end-----\n' % key)
     
-def get_spell(id_num):
+def get_tspell(id_num):
     '''Take in an id, output spell name'''
     spell = ''
     for sp in tactical_spells:
         if sp['id'] == str(id_num):
             spell = sp['spellName']
     return spell
-
+    
+def get_sability(id_num):
+    '''Take in an id, output spell name'''
+    sability = ''
+    for sa in strategic_abilities:
+        if sa['ID'] == str(id_num):
+            sability = sa['name']
+    return sability
+    
 ################
 # Script Start #
 ################
@@ -64,14 +71,20 @@ full_unitdict = unitdata['WorldUnitTemplatesContainer']
 unitdict = full_unitdict['unitsTemplates']
 walldict = full_unitdict['wallsTemplates']
 
-#Spells and Abilities
+ #Spells and Abilities
 full_sa_dict = sadata['globalSpellbook']
-strategic_abilities = full_sa_dict['strategicAbilities']
+strategic_abilities = full_sa_dict['strategicAbilities']['strategicAbility']
 tactical_abilities = full_sa_dict['tacticalAbilities']
 strategic_spells = full_sa_dict['strategicSpells']
 tactical_spells = full_sa_dict['tacticalSpells']['tacticalSpell']
 auras = full_sa_dict['auras']
 
+# DLC Stuff
+full_dlc_dict = dlcdata['HiddenXMLContainer']
+dlc_units = full_dlc_dict['dlcUnits']
+dlc_lords = full_dlc_dict['dlcLords']
+dlc_items = full_dlc_dict['dlcItems']
+ai_cheats = full_dlc_dict['aiCheats']
 
 ###############
 # Unit Parser #
@@ -94,12 +107,21 @@ for race in RACES:
                     print('#\tCON: %s\t#\tCHA: %s\t#' % (unit['battleStats']['abilityScores']['constitution']['score'],
                                                         unit['battleStats']['abilityScores']['charisma']['score']))
                     print('##############################')
-                    print('#\t\t\tSpells\t\t\t#')
+                    print('#\tTactical Spells\t\t#')
                     print('-------------------------')
                     try:
                         tac_spells = unit['battleStats']['tacticalSpells']['int']
                         for s in tac_spells:
-                            print('#\t%s' % (get_spell(s)))
+                            print('#\t%s' % (get_tspell(s)))
                     except KeyError:
                         print('#\t\tNo Spells\t\t\t#')
+                    print('##############################')
+                    print('#\tStrategic Map Abilities\t\t#')
+                    print('-------------------------')
+                    try:
+                        sabilitys = unit['battleStats']['strategicAbilities']['int']
+                        for s in sabilitys:
+                            print('#\t%s' % (get_sability(s)))
+                    except KeyError:
+                        print('#\tNo Strategic Abilities\t\t#')
                     print('##############################')
