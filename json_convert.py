@@ -56,7 +56,7 @@ dlc_file = open('dlc.json', 'r')
 dlcdata = json.load(dlc_file)
 dlc_file.close()
 
-# Begin parsing out the dicts and nested structures into seperate 
+# Begin splitting out the dicts and nested structures into seperate 
 # dicts for easier parsing.
 
 # Units
@@ -73,22 +73,33 @@ tactical_spells = full_sa_dict['tacticalSpells']['tacticalSpell']
 auras = full_sa_dict['auras']
 
 
+###############
+# Unit Parser #
+###############
 
-# Parsers start here. 
-for item in unitdict['WorldUnitTemplate']:
-    if item['battleStats']['type'] == 'UNIT' and item['race'] == 'DARK_ELVES':
-        print('\n------%s START-----\n' % (str(item['battleStats']['name'])))
-        for key in item:
-            if isinstance(item[key], (list, dict)):
-                explode_list(key, item[key])
-            else:
-                print(key + ' : ' + str(item[key]) + '\n')
-        print('\n-----%s END-----' % (str(item['battleStats']['name'])))
-
-'''for item in unitdict['WorldUnitTemplate']:
-    print('Unit name: %s' % item['battleStats']['name'])
-    print('Unit Race: %s' % item['race'])
-    print('\nUnit Movement Stats:\tType of movement: %s\n\t\t\tMovement Points: %s\n\t\t\tRoad Modifier: %s\n' %
-            (item['movement']['type'], str(item['movement']['points']), str(item['movement']['roadMultiplier'])))
-    print('Upkeep Costs:\tGold: %s\n\t\tMana: %s\n\t\tFood Upkeep: %s\n\t\tNegative Energy: %s\n' %
-          (str(item['goldUpkeepCost']), str(item['manaUpkeepCost']), str(item['foodUpkeepCost']), str(item['neUpkeepCost'])))'''
+for race in RACES:
+    for unit in unitdict['WorldUnitTemplate']:
+        if unit['race'] == race:
+            for unittype in UNIT_TYPES:
+                if unittype == unit['battleStats']['type']:
+                    print('\n#############################################')
+                    print('# %s : %s : %s #' % (unit['race'], unit['battleStats']['name'], unit['battleStats']['type']))
+                    print('#############################################')
+                    print('#\t\tStarting Stats\t\t#')
+                    print('------------------------------')
+                    print('#\tSTR: %s\t#\tINT: %s\t#' % (unit['battleStats']['abilityScores']['strength']['score'],
+                                                        unit['battleStats']['abilityScores']['intellegence']['score']))
+                    print('#\tDEX: %s\t#\tWIS: %s\t#' % (unit['battleStats']['abilityScores']['dexterity']['score'],
+                                                        unit['battleStats']['abilityScores']['wisdom']['score']))
+                    print('#\tCON: %s\t#\tCHA: %s\t#' % (unit['battleStats']['abilityScores']['constitution']['score'],
+                                                        unit['battleStats']['abilityScores']['charisma']['score']))
+                    print('##############################')
+                    print('#\t\t\tSpells\t\t\t#')
+                    print('-------------------------')
+                    try:
+                        tac_spells = unit['battleStats']['tacticalSpells']['int']
+                        for s in tac_spells:
+                            print('#\t%s' % (get_spell(s)))
+                    except KeyError:
+                        print('#\t\tNo Spells\t\t\t#')
+                    print('##############################')
