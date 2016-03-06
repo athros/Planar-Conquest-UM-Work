@@ -2,6 +2,11 @@
 
 import json
 
+RACES = ['HIGH_MEN', 'UNHALLOWED', 'GRAY_ELVES', 'DARK_ELVES', 'DWARVES', 'INSECTOIDS', 'ORCS', 'DRACONIANS']
+SUMMON_RACES = ['SUMMONS_DEATH', 'SUMMONS_EARTH', 'SUMMONS_AIR', 'SUMMONS_WATER', 'SUMMONS_FIRE', 'SUMMONS_LIFE']
+OTHER_RACES = ['ANIMALS']
+UNIT_TYPES = ['UNIT', 'SHIP', 'HERO', 'MONSTER', 'CHAMPION']
+
 def explode_list(key, s_dict):
     ''' Run through a list/dict piece by piece '''
     print('\n-----%s start-----' % key)
@@ -13,11 +18,8 @@ def explode_list(key, s_dict):
         elif k == 'int':
             i = 0
             for spe in v:
-                if spe != '0':
-                    print(i, get_spell(spe))
-                    i = i + 1
-                else:
-                    print('0 No spells')
+                print(i, get_spell(spe))
+                i = i + 1
         elif isinstance(v, list):
             print('--%s start--' % k)
             print(k + ' : ' + str(v))
@@ -74,15 +76,14 @@ auras = full_sa_dict['auras']
 
 # Parsers start here. 
 for item in unitdict['WorldUnitTemplate']:
-    print(item['race'])
-    '''if item['race'] == 'HIGH_MEN' and (item['battleStats']['type'] == 'HERO' or item['battleStats']['type'] == 'CHAMPION'): #and item['battleStats']['name'] == 'Clerics':
+    if item['battleStats']['type'] == 'UNIT' and item['race'] == 'DARK_ELVES':
         print('\n------%s START-----\n' % (str(item['battleStats']['name'])))
         for key in item:
             if isinstance(item[key], (list, dict)):
                 explode_list(key, item[key])
             else:
                 print(key + ' : ' + str(item[key]) + '\n')
-        print('\n-----%s END-----' % (str(item['battleStats']['name'])))'''
+        print('\n-----%s END-----' % (str(item['battleStats']['name'])))
 
 '''for item in unitdict['WorldUnitTemplate']:
     print('Unit name: %s' % item['battleStats']['name'])
