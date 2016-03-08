@@ -26,7 +26,7 @@ def explode_list(key, s_dict):
         else:
             print(k + ' : ' + str(v))
     print('-----%s end-----\n' % key)
-    
+
 def get_tspell(id_num):
     '''Take in an id, output spell name'''
     spell = ''
@@ -34,7 +34,7 @@ def get_tspell(id_num):
         if sp['id'] == str(id_num):
             spell = sp['spellName']
     return spell
-    
+
 def get_sability(id_num):
     '''Take in an id, output spell name'''
     sability = ''
@@ -42,21 +42,21 @@ def get_sability(id_num):
         if sa['ID'] == str(id_num):
             sability = sa['name']
     return sability
-    
+
 def stats_display(ud):
     print('#\t\tStarting Stats\t\t#')
     print('------------------------------')
-    print('#\tSTR: %s\t#\tINT: %s\t#' % 
+    print('#\tSTR: %s\t#\tINT: %s\t#' %
             (unit['battleStats']['abilityScores']['strength']['score'],
              unit['battleStats']['abilityScores']['intellegence']['score']))
-    print('#\tDEX: %s\t#\tWIS: %s\t#' % 
+    print('#\tDEX: %s\t#\tWIS: %s\t#' %
             (unit['battleStats']['abilityScores']['dexterity']['score'],
              unit['battleStats']['abilityScores']['wisdom']['score']))
-    print('#\tCON: %s\t#\tCHA: %s\t#' % 
+    print('#\tCON: %s\t#\tCHA: %s\t#' %
             (unit['battleStats']['abilityScores']['constitution']['score'],
              unit['battleStats']['abilityScores']['charisma']['score']))
     print('##############################')
-    
+
 def tac_spells_display(ud):
     print('#\tTactical Spells\t\t#')
     print('-------------------------')
@@ -67,7 +67,7 @@ def tac_spells_display(ud):
     except KeyError:
         print('#\t\tNo Spells\t\t\t#')
     print('##############################')
-    
+
 def strat_abilities_display(ud):
     print('#\tStrategic Map Abilities\t\t#')
     print('-------------------------')
@@ -78,7 +78,7 @@ def strat_abilities_display(ud):
     except KeyError:
         print('#\tNo Strategic Abilities\t\t#')
     print('##############################')
-    
+
 ################
 # Script Start #
 ################
