@@ -43,6 +43,42 @@ def get_sability(id_num):
             sability = sa['name']
     return sability
     
+def stats_display(ud):
+    print('#\t\tStarting Stats\t\t#')
+    print('------------------------------')
+    print('#\tSTR: %s\t#\tINT: %s\t#' % 
+            (unit['battleStats']['abilityScores']['strength']['score'],
+             unit['battleStats']['abilityScores']['intellegence']['score']))
+    print('#\tDEX: %s\t#\tWIS: %s\t#' % 
+            (unit['battleStats']['abilityScores']['dexterity']['score'],
+             unit['battleStats']['abilityScores']['wisdom']['score']))
+    print('#\tCON: %s\t#\tCHA: %s\t#' % 
+            (unit['battleStats']['abilityScores']['constitution']['score'],
+             unit['battleStats']['abilityScores']['charisma']['score']))
+    print('##############################')
+    
+def tac_spells_display(ud):
+    print('#\tTactical Spells\t\t#')
+    print('-------------------------')
+    try:
+        tac_spells = unit['battleStats']['tacticalSpells']['int']
+        for s in tac_spells:
+            print('#\t%s' % (get_tspell(s)))
+    except KeyError:
+        print('#\t\tNo Spells\t\t\t#')
+    print('##############################')
+    
+def strat_abilities_display(ud):
+    print('#\tStrategic Map Abilities\t\t#')
+    print('-------------------------')
+    try:
+        sabilitys = unit['battleStats']['strategicAbilities']['int']
+        for s in sabilitys:
+            print('#\t%s' % (get_sability(s)))
+    except KeyError:
+        print('#\tNo Strategic Abilities\t\t#')
+    print('##############################')
+    
 ################
 # Script Start #
 ################
@@ -98,30 +134,6 @@ for race in RACES:
                     print('\n#############################################')
                     print('# %s : %s : %s #' % (unit['race'], unit['battleStats']['name'], unit['battleStats']['type']))
                     print('#############################################')
-                    print('#\t\tStarting Stats\t\t#')
-                    print('------------------------------')
-                    print('#\tSTR: %s\t#\tINT: %s\t#' % (unit['battleStats']['abilityScores']['strength']['score'],
-                                                        unit['battleStats']['abilityScores']['intellegence']['score']))
-                    print('#\tDEX: %s\t#\tWIS: %s\t#' % (unit['battleStats']['abilityScores']['dexterity']['score'],
-                                                        unit['battleStats']['abilityScores']['wisdom']['score']))
-                    print('#\tCON: %s\t#\tCHA: %s\t#' % (unit['battleStats']['abilityScores']['constitution']['score'],
-                                                        unit['battleStats']['abilityScores']['charisma']['score']))
-                    print('##############################')
-                    print('#\tTactical Spells\t\t#')
-                    print('-------------------------')
-                    try:
-                        tac_spells = unit['battleStats']['tacticalSpells']['int']
-                        for s in tac_spells:
-                            print('#\t%s' % (get_tspell(s)))
-                    except KeyError:
-                        print('#\t\tNo Spells\t\t\t#')
-                    print('##############################')
-                    print('#\tStrategic Map Abilities\t\t#')
-                    print('-------------------------')
-                    try:
-                        sabilitys = unit['battleStats']['strategicAbilities']['int']
-                        for s in sabilitys:
-                            print('#\t%s' % (get_sability(s)))
-                    except KeyError:
-                        print('#\tNo Strategic Abilities\t\t#')
-                    print('##############################')
+                    stats_display(unit)
+                    tac_spells_display(unit)
+                    strat_abilities_display(unit)
