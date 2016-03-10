@@ -13,11 +13,11 @@ def explode_list(key, s_dict):
     for k, v in s_dict.items():
         if isinstance(v, dict):
             explode_list(k, v)
-        # Tactical spells are under tacticalSpells/int 
+        # Tactical spells are under tacticalSpells/int
         elif k == 'int':
             i = 0
             for spe in v:
-                print(i, get_spell(spe))
+                print(i, get_tspell(spe))
                 i = i + 1
         elif isinstance(v, list):
             print('--%s start--' % k)
@@ -61,7 +61,7 @@ def tac_spells_display(ud):
     print('#\tTactical Spells\t\t#')
     print('-------------------------')
     try:
-        tac_spells = unit['battleStats']['tacticalSpells']['int']
+        tac_spells = ud['battleStats']['tacticalSpells']['int']
         for s in tac_spells:
             print('#\t%s' % (get_tspell(s)))
     except KeyError:
