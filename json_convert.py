@@ -79,6 +79,15 @@ def strat_abilities_display(ud):
         print('#\tNo Strategic Abilities\t\t#')
     print('##############################')
     
+def upkeep_display(ud):
+    print('#\tUpkeep\t\t\t\t#')
+    print('-------------------------')
+    print('#\t Food Upkeep: %s\t\t\t\t#' % (ud['foodUpkeepCost']))
+    print('#\t Gold Upkeep: %s\t\t\t\t#' % (ud['goldUpkeepCost']))
+    print('#\t Mana Upkeep: %s\t\t\t\t#' % (ud['manaUpkeepCost']))
+    if ud['race'] == 'UNHALLOWED':
+        print('#\t Negative Energy Upkeep: %s\t#' % (ud['neUpkeepCost']))
+    
 ################
 # Script Start #
 ################
@@ -137,3 +146,4 @@ for race in RACES:
                     stats_display(unit)
                     tac_spells_display(unit)
                     strat_abilities_display(unit)
+                    upkeep_display(unit)
