@@ -12,6 +12,7 @@ def explode_list(key, s_dict):
     print('\n-----%s start-----' % key)
     for k, v in s_dict.items():
         if isinstance(v, dict):
+            print('DICT\n')
             explode_list(k, v)
         # Tactical spells are under tacticalSpells/int
         elif k == 'int':
@@ -20,6 +21,7 @@ def explode_list(key, s_dict):
                 print(i, get_tspell(spe))
                 i = i + 1
         elif isinstance(v, list):
+            print('LIST\n')
             print('--%s start--' % k)
             print(k + ' : ' + str(v))
             print('--%s end--' % k)
@@ -87,6 +89,18 @@ def upkeep_display(ud):
     print('#\t Mana Upkeep: %s\t\t\t\t#' % (ud['manaUpkeepCost']))
     if ud['race'] == 'UNHALLOWED':
         print('#\t Negative Energy Upkeep: %s\t#' % (ud['neUpkeepCost']))
+
+def attack_display(ud):
+    print('#\t\tAttacks\t\t\t#')
+    try:
+        if isinstance(ud['battleStats']['attacks']['Attack'], dict):
+            for k, v in ud['battleStats']['attacks']['Attack'].items():
+                print('#\t%s : %s\t#' % (str(k), str(v)))
+        elif isinstance(ud['battleStats']['attacks']['Attack'], list):
+            for item in ud['battleStats']['attacks']['Attack']:
+                print('#\t%s : %s\t#' % (str(item), str(ud['battleStats']['attacks']['Attack'][item])))
+    except TypeError:
+        print('#\t\tNo Attacks\t\t#')
     
 ################
 # Script Start #
@@ -143,7 +157,8 @@ for race in RACES:
                     print('\n#############################################')
                     print('# %s : %s : %s #' % (unit['race'], unit['battleStats']['name'], unit['battleStats']['type']))
                     print('#############################################')
-                    stats_display(unit)
-                    tac_spells_display(unit)
-                    strat_abilities_display(unit)
-                    upkeep_display(unit)
+                    #stats_display(unit)
+                    #tac_spells_display(unit)
+                    #strat_abilities_display(unit)
+                    #upkeep_display(unit)
+                    attack_display(unit)
