@@ -152,8 +152,8 @@ def attack_display(ud):
                        atk['diceList']['DamageDie']['dieType']))
                 print('#\tDamage Bonus: %s\t\t\t#' %
                       atk['diceList']['DamageDie']['addAttackDamageBonus'])
-                #for k, v in atk.items():
-                    #print(k, v)
+                for k, v in atk.items():
+                    print(k, v)
                 print('#########################################')
                 i += 1
         elif atk_type is dict:
