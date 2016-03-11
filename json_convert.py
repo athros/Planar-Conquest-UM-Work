@@ -1,11 +1,34 @@
 #!/usr/bin/env python3
 
 import json
+import re
 
-RACES = ['HIGH_MEN', 'UNHALLOWED', 'GRAY_ELVES', 'DARK_ELVES', 'DWARVES', 'INSECTOIDS', 'ORCS', 'DRACONIANS']
-SUMMON_RACES = ['SUMMONS_DEATH', 'SUMMONS_EARTH', 'SUMMONS_AIR', 'SUMMONS_WATER', 'SUMMONS_FIRE', 'SUMMONS_LIFE']
+RACES = ['HIGH_MEN',
+         'UNHALLOWED',
+         'GRAY_ELVES',
+         'DARK_ELVES',
+         'DWARVES',
+         'INSECTOIDS',
+         'ORCS',
+         'DRACONIANS']
+
+SUMMON_RACES = ['SUMMONS_DEATH',
+                'SUMMONS_EARTH',
+                'SUMMONS_AIR',
+                'SUMMONS_WATER',
+                'SUMMONS_FIRE',
+                'SUMMONS_LIFE']
+
+UNIT_TYPES = ['UNIT',
+              'SHIP',
+              'HERO',
+              'MONSTER',
+              'CHAMPION']
+
 OTHER_RACES = ['ANIMALS']
-UNIT_TYPES = ['UNIT', 'SHIP', 'HERO', 'MONSTER', 'CHAMPION']
+
+RANGED_RE = re.compile('[Rr]anged.*$')
+
 
 def explode_list(key, s_dict):
     ''' Run through a list/dict piece by piece '''
@@ -29,6 +52,7 @@ def explode_list(key, s_dict):
             print(k + ' : ' + str(v))
     print('-----%s end-----\n' % key)
 
+
 def get_tspell(id_num):
     '''Take in an id, output spell name'''
     spell = ''
@@ -36,6 +60,7 @@ def get_tspell(id_num):
         if sp['id'] == str(id_num):
             spell = sp['spellName']
     return spell
+
 
 def get_sability(id_num):
     '''Take in an id, output spell name'''
@@ -45,19 +70,21 @@ def get_sability(id_num):
             sability = sa['name']
     return sability
 
+
 def stats_display(ud):
     print('#\t\tStarting Stats\t\t#')
     print('------------------------------')
-    print('#\tSTR: %s\t#\tINT: %s\t#' % 
-            (unit['battleStats']['abilityScores']['strength']['score'],
-             unit['battleStats']['abilityScores']['intellegence']['score']))
-    print('#\tDEX: %s\t#\tWIS: %s\t#' % 
-            (unit['battleStats']['abilityScores']['dexterity']['score'],
-             unit['battleStats']['abilityScores']['wisdom']['score']))
-    print('#\tCON: %s\t#\tCHA: %s\t#' % 
-            (unit['battleStats']['abilityScores']['constitution']['score'],
-             unit['battleStats']['abilityScores']['charisma']['score']))
+    print('#\tSTR: %s\t#\tINT: %s\t#' %
+          (unit['battleStats']['abilityScores']['strength']['score'],
+           unit['battleStats']['abilityScores']['intellegence']['score']))
+    print('#\tDEX: %s\t#\tWIS: %s\t#' %
+          (unit['battleStats']['abilityScores']['dexterity']['score'],
+           unit['battleStats']['abilityScores']['wisdom']['score']))
+    print('#\tCON: %s\t#\tCHA: %s\t#' %
+          (unit['battleStats']['abilityScores']['constitution']['score'],
+           unit['battleStats']['abilityScores']['charisma']['score']))
     print('##############################')
+
 
 def tac_spells_display(ud):
     print('#\tTactical Spells\t\t#')
@@ -70,6 +97,7 @@ def tac_spells_display(ud):
         print('#\t\tNo Spells\t\t\t#')
     print('##############################')
 
+
 def strat_abilities_display(ud):
     print('#\tStrategic Map Abilities\t\t#')
     print('-------------------------')
@@ -81,6 +109,7 @@ def strat_abilities_display(ud):
         print('#\tNo Strategic Abilities\t\t#')
     print('##############################')
 
+
 def upkeep_display(ud):
     print('#\tUpkeep\t\t\t\t#')
     print('-------------------------')
@@ -90,6 +119,7 @@ def upkeep_display(ud):
     if ud['race'] == 'UNHALLOWED':
         print('#\t Negative Energy Upkeep: %s\t#' % (ud['neUpkeepCost']))
 
+
 def attack_display(ud):
     print('#\t\tAttacks\t\t\t#')
     try:
@@ -97,27 +127,64 @@ def attack_display(ud):
         if atk_type is list:
             i = 1
             for atk in ud['battleStats']['attacks']['Attack']:
-                print('#############################################')
+                print('#########################################')
                 print('#\t\tAttack Number %i\t\t#' % i)
-                print('#############################################')
-                print('#\tAttack Type: %s\t#' % (str(atk['attackType'])))
+                print('#########################################')
+                print('#\tAttack Type: %s\t#' % (atk['attackType']))
+                print('#\tAttack Bonus: %s\t\t#' %
+                      atk['additionalAttackBonus'])
+                print('#\tCritical Range: %s\t\t#' % atk['criticalRange'])
+                print('#\tCritical Multiplier: %s\t\t#' %
+                      atk['criticalMultiplier'])
+                print('##\tDamage\t\t\t\t#')
+                print('#\tWeapon Type: %s\t\t#' %
+                      atk['diceList']['DamageDie']['weaponType'])
+                print('#\tDamage Type: %s\t\t#' %
+                      atk['diceList']['DamageDie']['damageType'])
+                print('#\tDamage Dice: %sd%s\t\t#' %
+                      (atk['diceList']['DamageDie']['count'],
+                       atk['diceList']['DamageDie']['dieType']))
+                print('#\tDamage Bonus: %s\t\t\t#' %
+                      atk['diceList']['DamageDie']['addAttackDamageBonus'])
                 for k, v in atk.items():
                     print(k, v)
-                print('#############################################')
+                print('#########################################')
                 i += 1
         elif atk_type is dict:
-            for k, v in ud['battleStats']['attacks']['Attack'].items():
-                print('#\t%s : %s\t#' % (str(k), str(v)))
+            atk = ud['battleStats']['attacks']['Attack']
+            print('#########################################')
+            print('#\t\tAttack\t\t#')
+            print('#########################################')
+            print('#\tAttack Type: %s\t#' % atk['attackType'])
+            print('#\tAttack Bonus: %s\t\t#' % atk['additionalAttackBonus'])
+            print('#\tCritical Range: %s\t\t#' % atk['criticalRange'])
+            print('#\tCritical Multiplier: %s\t\t#' %
+                  atk['criticalMultiplier'])
+            print('##\tDamage\t\t\t\t#')
+            print('#\tWeapon Type: %s\t\t#' %
+                  atk['diceList']['DamageDie']['weaponType'])
+            print('#\tDamage Type: %s\t\t#' %
+                  atk['diceList']['DamageDie']['damageType'])
+            print('#\tDamage Dice: %sd%s\t\t#' %
+                  (atk['diceList']['DamageDie']['count'],
+                   atk['diceList']['DamageDie']['dieType']))
+            print('#\tDamage Bonus: %s\t\t\t#' %
+                  atk['diceList']['DamageDie']['addAttackDamageBonus'])
+            print('#########################################')
+#    except Exception as inst:
+#        print(type(inst))    # the exception instance
+#        print(inst.args)     # arguments stored in .args
+#        print(inst)
     except:
         print('#\t\tNo Attacks\t\t#')
-    
+
 ################
 # Script Start #
 ################
 
 # There are 3 files total with information in them.
 # Load the file, convert to python data structures
-# Close the file. 
+# Close the file.
 
 unit_file = open('units.json', 'r')
 unitdata = json.load(unit_file)
@@ -131,7 +198,7 @@ dlc_file = open('dlc.json', 'r')
 dlcdata = json.load(dlc_file)
 dlc_file.close()
 
-# Begin splitting out the dicts and nested structures into seperate 
+# Begin splitting out the dicts and nested structures into seperate
 # dicts for easier parsing.
 
 # Units
@@ -139,7 +206,7 @@ full_unitdict = unitdata['WorldUnitTemplatesContainer']
 unitdict = full_unitdict['unitsTemplates']
 walldict = full_unitdict['wallsTemplates']
 
- #Spells and Abilities
+# Spells and Abilities
 full_sa_dict = sadata['globalSpellbook']
 strategic_abilities = full_sa_dict['strategicAbilities']['strategicAbility']
 tactical_abilities = full_sa_dict['tacticalAbilities']
@@ -167,7 +234,9 @@ for race in RACES:
             for unittype in UNIT_TYPES:
                 if unittype == unit['battleStats']['type']:
                     print('\n#############################################')
-                    print('# %s : %s : %s #' % (unit['race'], unit['battleStats']['name'], unit['battleStats']['type']))
+                    print('# %s : %s : %s #' % (unit['race'],
+                                                unit['battleStats']['name'],
+                                                unit['battleStats']['type']))
                     print('#############################################')
                     #stats_display(unit)
                     #tac_spells_display(unit)
