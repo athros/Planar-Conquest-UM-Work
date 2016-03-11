@@ -73,7 +73,7 @@ def get_sability(id_num):
 
 def stats_display(ud):
     print('#\t\tStarting Stats\t\t#')
-    print('------------------------------')
+    print('#---------------------------------------#')
     print('#\tSTR: %s\t#\tINT: %s\t#' %
           (unit['battleStats']['abilityScores']['strength']['score'],
            unit['battleStats']['abilityScores']['intellegence']['score']))
@@ -83,48 +83,50 @@ def stats_display(ud):
     print('#\tCON: %s\t#\tCHA: %s\t#' %
           (unit['battleStats']['abilityScores']['constitution']['score'],
            unit['battleStats']['abilityScores']['charisma']['score']))
-    print('##############################')
+    print('#########################################')
 
 
 def tac_spells_display(ud):
-    print('#\tTactical Spells\t\t#')
-    print('-------------------------')
+    print('#\t\tTactical Spells\t\t#')
+    print('#---------------------------------------#')
     try:
         tac_spells = ud['battleStats']['tacticalSpells']['int']
         for s in tac_spells:
             print('#\t%s' % (get_tspell(s)))
     except KeyError:
-        print('#\t\tNo Spells\t\t\t#')
-    print('##############################')
+        print('#\t\tNo Spells\t\t#')
+    print('#########################################')
 
 
 def strat_abilities_display(ud):
     print('#\tStrategic Map Abilities\t\t#')
-    print('-------------------------')
+    print('#---------------------------------------#')
     try:
         sabilitys = unit['battleStats']['strategicAbilities']['int']
         for s in sabilitys:
             print('#\t%s' % (get_sability(s)))
     except KeyError:
         print('#\tNo Strategic Abilities\t\t#')
-    print('##############################')
+    print('#########################################')
 
 
 def upkeep_display(ud):
-    print('#\tUpkeep Costs\t\t\t#')
-    print('-------------------------')
+    print('#\t\tUpkeep Costs\t\t#')
+    print('#---------------------------------------#')
     if int(ud['foodUpkeepCost']) > 0:
-        print('#\t Food Upkeep: %s\t\t\t\t#' % (ud['foodUpkeepCost']))
+        print('#\t Food Upkeep: %s\t\t\t#' % (ud['foodUpkeepCost']))
     if int(ud['goldUpkeepCost']) > 0:
-        print('#\t Gold Upkeep: %s\t\t\t\t#' % (ud['goldUpkeepCost']))
+        print('#\t Gold Upkeep: %s\t\t\t#' % (ud['goldUpkeepCost']))
     if int(ud['manaUpkeepCost']) > 0:
-        print('#\t Mana Upkeep: %s\t\t\t\t#' % (ud['manaUpkeepCost']))
+        print('#\t Mana Upkeep: %s\t\t\t#' % (ud['manaUpkeepCost']))
     if int(ud['neUpkeepCost']) > 0:
         print('#\t Negative Energy Upkeep: %s\t#' % (ud['neUpkeepCost']))
+    print('#########################################')
 
 
 def attack_display(ud):
     print('#\t\tAttacks\t\t\t#')
+    print('#---------------------------------------#')
     try:
         atk_type = type(ud['battleStats']['attacks']['Attack'])
         if atk_type is list:
@@ -132,7 +134,7 @@ def attack_display(ud):
             for atk in ud['battleStats']['attacks']['Attack']:
                 print('#########################################')
                 print('#\t\tAttack Number %i\t\t#' % i)
-                print('#########################################')
+                print('#---------------------------------------#')
                 print('#\tAttack Type: %s\t#' % (atk['attackType']))
                 print('#\tAttack Bonus: %s\t\t#' %
                       atk['additionalAttackBonus'])
@@ -160,7 +162,7 @@ def attack_display(ud):
             atk = ud['battleStats']['attacks']['Attack']
             print('#########################################')
             print('#\t\tAttack\t\t#')
-            print('#########################################')
+            print('#---------------------------------------#')
             print('#\tAttack Type: %s\t#' % atk['attackType'])
             print('#\tAttack Bonus: %s\t\t#' % atk['additionalAttackBonus'])
             print('#\tCritical Range: %s\t\t#' % atk['criticalRange'])
