@@ -94,15 +94,18 @@ def attack_display(ud):
     print('#\t\tAttacks\t\t\t#')
     try:
         atk_type = type(ud['battleStats']['attacks']['Attack'])
-        print(atk_type)
         if atk_type is list:
-            print('LIST')
-            i = 0
+            i = 1
             for atk in ud['battleStats']['attacks']['Attack']:
+                print('#############################################')
+                print('#\t\tAttack Number %i\t\t#' % i)
+                print('#############################################')
+                print('#\tAttack Type: %s\t#' % (str(atk['attackType'])))
                 for k, v in atk.items():
                     print(k, v)
+                print('#############################################')
+                i += 1
         elif atk_type is dict:
-            print('DICT')
             for k, v in ud['battleStats']['attacks']['Attack'].items():
                 print('#\t%s : %s\t#' % (str(k), str(v)))
     except:
@@ -156,6 +159,9 @@ ai_cheats = full_dlc_dict['aiCheats']
 ###############
 
 for race in RACES:
+    print('\n\n#############################################')
+    print('%s' % str(race))
+    print('#############################################\n')
     for unit in unitdict['WorldUnitTemplate']:
         if unit['race'] == race:
             for unittype in UNIT_TYPES:
@@ -168,3 +174,4 @@ for race in RACES:
                     #strat_abilities_display(unit)
                     #upkeep_display(unit)
                     attack_display(unit)
+                    print('#############################################\n')
