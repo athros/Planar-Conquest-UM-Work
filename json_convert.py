@@ -195,15 +195,15 @@ def attack_display(ud):
 # Load the file, convert to python data structures
 # Close the file.
 
-unit_file = open('units.json', 'r')
+unit_file = open('./data/units.json', 'r')
 unitdata = json.load(unit_file)
 unit_file.close()
 
-spell_ability_file = open('spellsAndAbilities.json', 'r')
+spell_ability_file = open('./data/spellsAndAbilities.json', 'r')
 sadata = json.load(spell_ability_file)
 spell_ability_file.close()
 
-dlc_file = open('dlc.json', 'r')
+dlc_file = open('./data/dlc.json', 'r')
 dlcdata = json.load(dlc_file)
 dlc_file.close()
 
