@@ -111,12 +111,15 @@ def strat_abilities_display(ud):
 
 
 def upkeep_display(ud):
-    print('#\tUpkeep\t\t\t\t#')
+    print('#\tUpkeep Costs\t\t\t#')
     print('-------------------------')
-    print('#\t Food Upkeep: %s\t\t\t\t#' % (ud['foodUpkeepCost']))
-    print('#\t Gold Upkeep: %s\t\t\t\t#' % (ud['goldUpkeepCost']))
-    print('#\t Mana Upkeep: %s\t\t\t\t#' % (ud['manaUpkeepCost']))
-    if ud['race'] == 'UNHALLOWED':
+    if int(ud['foodUpkeepCost']) > 0:
+        print('#\t Food Upkeep: %s\t\t\t\t#' % (ud['foodUpkeepCost']))
+    if int(ud['goldUpkeepCost']) > 0:
+        print('#\t Gold Upkeep: %s\t\t\t\t#' % (ud['goldUpkeepCost']))
+    if int(ud['manaUpkeepCost']) > 0:
+        print('#\t Mana Upkeep: %s\t\t\t\t#' % (ud['manaUpkeepCost']))
+    if int(ud['neUpkeepCost']) > 0:
         print('#\t Negative Energy Upkeep: %s\t#' % (ud['neUpkeepCost']))
 
 
@@ -238,9 +241,9 @@ for race in RACES:
                                                 unit['battleStats']['name'],
                                                 unit['battleStats']['type']))
                     print('#############################################')
-                    #stats_display(unit)
-                    #tac_spells_display(unit)
-                    #strat_abilities_display(unit)
-                    #upkeep_display(unit)
+#                    stats_display(unit)
+#                    tac_spells_display(unit)
+#                    strat_abilities_display(unit)
+#                    upkeep_display(unit)
                     attack_display(unit)
                     print('#############################################\n')
