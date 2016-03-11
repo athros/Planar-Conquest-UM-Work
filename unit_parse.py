@@ -75,14 +75,14 @@ def stats_display(ud):
     print('#\t\tStarting Stats\t\t#')
     print('#---------------------------------------#')
     print('#\tSTR: %s\t#\tINT: %s\t#' %
-          (unit['battleStats']['abilityScores']['strength']['score'],
-           unit['battleStats']['abilityScores']['intellegence']['score']))
+          (ud['battleStats']['abilityScores']['strength']['score'],
+           ud['battleStats']['abilityScores']['intellegence']['score']))
     print('#\tDEX: %s\t#\tWIS: %s\t#' %
-          (unit['battleStats']['abilityScores']['dexterity']['score'],
-           unit['battleStats']['abilityScores']['wisdom']['score']))
+          (ud['battleStats']['abilityScores']['dexterity']['score'],
+           ud['battleStats']['abilityScores']['wisdom']['score']))
     print('#\tCON: %s\t#\tCHA: %s\t#' %
-          (unit['battleStats']['abilityScores']['constitution']['score'],
-           unit['battleStats']['abilityScores']['charisma']['score']))
+          (ud['battleStats']['abilityScores']['constitution']['score'],
+           ud['battleStats']['abilityScores']['charisma']['score']))
     print('#########################################')
 
 
