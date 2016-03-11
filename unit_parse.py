@@ -249,9 +249,9 @@ for race in RACES:
                                                 unit['battleStats']['name'],
                                                 unit['battleStats']['type']))
                     print('#############################################')
-                    stats_display(unit)
-                    tac_spells_display(unit)
-                    strat_abilities_display(unit)
-                    upkeep_display(unit)
+#                    stats_display(unit)
+#                    tac_spells_display(unit)
+#                    strat_abilities_display(unit)
+#                    upkeep_display(unit)
                     attack_display(unit)
                     print('#############################################\n')
