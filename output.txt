@@ -1,0 +1,5310 @@
+
+
+#############################################
+HIGH_MEN
+#############################################
+
+
+#############################################
+# HIGH_MEN : Settlers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Engineers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 14	#
+#	DEX: 12	#	WIS: 12	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildRoad
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Spearmen : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 13	#	INT: 10	#
+#	DEX: 11	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Swordsmen : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 11	#	WIS: 10	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Clerics : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 10	#	WIS: 14	#
+#	CON: 12	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	BlessWeapon
+#	TrueSight
+#	Heal
+#	DisruptUndead
+#	Bless
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Crossbowmen : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 11	#	INT: 10	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 10	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 4		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Pikemen : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 15	#	INT: 10	#
+#	DEX: 10	#	WIS: 12	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Catapult : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 7		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Paladins : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 10	#
+#	DEX: 10	#	WIS: 15	#
+#	CON: 14	#	CHA: 16	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Heal
+#	BlessWeapon
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Verne Stargrove : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 10	#
+#	DEX: 12	#	WIS: 14	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Pilarica : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 12	#	WIS: 17	#
+#	CON: 16	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	BlessWeapon
+#	Heal
+#	DisruptUndead
+#	Bless
+#	ResistElements
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Sir Kaylen : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 17	#	INT: 10	#
+#	DEX: 12	#	WIS: 14	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Cirrym the Learned : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 16	#
+#	DEX: 14	#	WIS: 11	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Vertigo
+#	Slow
+#	Sandblast
+#	PsionicBlast
+#	MindStorm
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Darren Burnett : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 17	#	INT: 10	#
+#	DEX: 14	#	WIS: 13	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Ben Rubensson : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 10	#
+#	DEX: 12	#	WIS: 13	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Ixi : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 18	#
+#	DEX: 18	#	WIS: 11	#
+#	CON: 12	#	CHA: 17	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Blur
+#	Bless
+#	CircleofProtection
+#	MirrorImage
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Mana Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Lady Lavinia : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 12	#
+#	DEX: 10	#	WIS: 16	#
+#	CON: 16	#	CHA: 14	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Crombie : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 12	#
+#	DEX: 10	#	WIS: 16	#
+#	CON: 16	#	CHA: 14	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Heal
+#	DisruptUndead
+#	Bless
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Tulvan Dreamchaser : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 18	#
+#	DEX: 14	#	WIS: 15	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Vacuum
+#	BreathofLife
+#	Stasis
+#	FalseLife
+#	Weakness
+#	Web
+#	Heal
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Aledar Malar : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 18	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	FlamingWeapon
+#	Fireball
+#	FlameStrike
+#	DoomBolt
+#	BloodLust
+#	FireShield
+#	FireElemental
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Sigfrida Blackwing : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 12	#
+#	DEX: 16	#	WIS: 16	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	StrikeFirst
+#	BreathofLife
+#	LightningStrike
+#	Blur
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : General Krull Darkheart : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 10	#
+#	DEX: 10	#	WIS: 12	#
+#	CON: 16	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	UnholyWeapon
+#	Weakness
+#	SpitofBile
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Balkoth the Vindicated : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 10	#
+#	DEX: 10	#	WIS: 18	#
+#	CON: 14	#	CHA: 16	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Prayer
+#	Regeneration
+#	Heal
+#	MassHealing
+#	RighteousMight
+#	DisruptUndead
+#	ShootingStars
+#	Sunburst
+#	Bless
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Justicar Calin Radoi : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 10	#
+#	DEX: 12	#	WIS: 14	#
+#	CON: 14	#	CHA: 14	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Simbey the Sorcerer : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 18	#
+#	DEX: 14	#	WIS: 15	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	LightningStrike
+#	Thunderclap
+#	ChainLightning
+#	CloudofFlies
+#	Shatter
+#	Fireball
+#	DoomBolt
+#	ArcticChill
+#	LowerResistance
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Gontar : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 8	#	WIS: 14	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 22d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Galley : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Warship : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# HIGH_MEN : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+UNHALLOWED
+#############################################
+
+
+#############################################
+# UNHALLOWED : Dark Heralds : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 13	#	INT: 10	#
+#	DEX: 11	#	WIS: 10	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+#	CorruptTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 4	#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Skeletal Archers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 11	#	INT: 10	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 1	#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 4		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Ghouls : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 13	#	INT: 3	#
+#	DEX: 9	#	WIS: 10	#
+#	CON: 10	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 1	#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d3		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Reapers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 15	#	INT: 10	#
+#	DEX: 11	#	WIS: 10	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 2	#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Huecuva : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 14	#
+#	DEX: 12	#	WIS: 14	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	UnholyWeapon
+#	GhostTouch
+#	Darkness
+#	DarkEnergies
+#	HoldUndead
+#	LifeWard
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	CorruptTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 3	#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: NegativeEnergy		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: NegativeEnergy		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Arcane Wraith : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 16	#
+#	DEX: 14	#	WIS: 14	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Weakness
+#	SpitofBile
+#	Flay
+#	MindWrack
+#	Torpor
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 5	#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Cold		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Phantom Lancers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 17	#	INT: 8	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 4	#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Death Guards : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 10	#
+#	DEX: 10	#	WIS: 14	#
+#	CON: 10	#	CHA: 1	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	
+#	
+#	
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 8	#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Skull Catapult : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Negative Energy Upkeep: 4	#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 6		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Izzir the Damned : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 8	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 14	#	CHA: 14	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Amu-Hah Shekala : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 18	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 18	#	CHA: 4	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Darkness
+#	GhostTouch
+#	Vampirism
+#	SpitofBile
+#	Wrack
+#	Flay
+#	Torpor
+#	BlackPrayer
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# UNHALLOWED : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+GRAY_ELVES
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Pioneers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Archers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 11	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 8	#	CHA: 11	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 4		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 18		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Druids : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 11	#
+#	DEX: 12	#	WIS: 15	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	AcidArrow
+#	StoneSkin
+#	Heal
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Glaive Guards : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 11	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 10	#	CHA: 11	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Pegasus Riders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 11	#
+#	DEX: 16	#	WIS: 12	#
+#	CON: 12	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 3		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Rangers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 10	#	CHA: 11	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 5		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 18		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 3		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 18		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Unicorn Riders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 10	#
+#	DEX: 16	#	WIS: 12	#
+#	CON: 12	#	CHA: 11	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Grey Mages : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 8	#	INT: 18	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 10	#	CHA: 11	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	GuidingWind
+#	Vacuum
+#	WindBlast
+#	StaticCharge
+#	LightningStrike
+#	Vertigo
+#	Blur
+#	GuardianWind
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Electricity		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Faradrax : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 11	#
+#	DEX: 16	#	WIS: 13	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Aquestrielle : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 16	#
+#	DEX: 14	#	WIS: 13	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	FreezingWeapon
+#	IceBolt
+#	IceStorm
+#	ResistMagic
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Autumn Leaf : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 18	#	WIS: 13	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Adalas : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 18	#	WIS: 15	#
+#	CON: 14	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	GuidingWind
+#	Vertigo
+#	GuardianWind
+#	WindsAgility
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Amberclaw : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 14	#
+#	DEX: 16	#	WIS: 16	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	FireElemental
+#	AcidElemental
+#	PhantomWarriors
+#	Slime
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Galley : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Warship : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# GRAY_ELVES : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+DARK_ELVES
+#############################################
+
+
+#############################################
+# DARK_ELVES : Spinner : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 16	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Thrall : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 6	#
+#	DEX: 10	#	WIS: 8	#
+#	CON: 10	#	CHA: 5	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Warden : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: NegativeEnergy		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: NegativeEnergy		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Enforcer : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 8	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 4		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Zealots : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Arachnomancer : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 18	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Weakness
+#	Bloodletting
+#	SpitofBile
+#	AcidArrow
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d8		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Acid		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 3		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Fire		#
+#	Damage Dice: 3d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Weaver : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 18	#
+#	DEX: 14	#	WIS: 18	#
+#	CON: 8	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	UnholyWeapon
+#	FalseLife
+#	SpitofBile
+#	RaiseZombies
+#	BlazingMartyr
+#	DoomBolt
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Magical		#
+#	Damage Type: Arcane		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Cutter : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 12	#
+#	DEX: 16	#	WIS: 12	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 7				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 18		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 18		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 3		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Argolath : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 5	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 18	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 7				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d8		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Kathentira Dire : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 15	#	INT: 10	#
+#	DEX: 18	#	WIS: 14	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Monica Bloodblade : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 18	#	WIS: 10	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Dohar : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 12	#
+#	DEX: 18	#	WIS: 12	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Kelithengol : CHAMPION #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 10	#
+#	DEX: 16	#	WIS: 16	#
+#	CON: 14	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Galley : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DARK_ELVES : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+DWARVES
+#############################################
+
+
+#############################################
+# DWARVES : Forefathers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 8	#	WIS: 12	#
+#	CON: 16	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Engineers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 15	#
+#	DEX: 12	#	WIS: 12	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildRoad
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Defenders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 8	#	WIS: 12	#
+#	CON: 15	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Arbalesters : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 12	#	WIS: 12	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 4		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Rune Casters : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 14	#
+#	DEX: 10	#	WIS: 14	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	DisruptWall
+#	Sandblast
+#	StoneSkin
+#	FlameArrow
+#	Confusion
+#	SearingAura
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Fire		#
+#	Damage Dice: 2d3		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Rune Cannon : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 8	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 7		#
+##	Damage				#
+#		No Attacks		#
+#############################################
+
+
+#############################################
+# DWARVES : Warpriest : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 8	#
+#	DEX: 8	#	WIS: 16	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	DisruptWall
+#	BlessWeapon
+#	Heal
+#	DisruptUndead
+#	ShootingStars
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Hammerhands : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 8	#
+#	DEX: 10	#	WIS: 14	#
+#	CON: 14	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: -3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Rune Golem : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 22	#	INT: 8	#
+#	DEX: 6	#	WIS: 8	#
+#	CON: 24	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 10				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 0		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Drax : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DWARVES : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+INSECTOIDS
+#############################################
+
+
+#############################################
+# INSECTOIDS : Young Queen : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 16	#
+#	DEX: 12	#	WIS: 16	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	BlessWeapon
+#	Heal
+#	Pacifism
+#	Bless
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+#	BuildSiphon
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 6				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Legionnaire : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 6	#
+#	DEX: 12	#	WIS: 10	#
+#	CON: 8	#	CHA: 5	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildRoad
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Royal Guards : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 6	#
+#	DEX: 12	#	WIS: 10	#
+#	CON: 8	#	CHA: 6	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildRoad
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Slingers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 6	#
+#	DEX: 12	#	WIS: 8	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 4		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Acid		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Seer : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 8	#	INT: 14	#
+#	DEX: 12	#	WIS: 10	#
+#	CON: 10	#	CHA: 6	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	AcidArrow
+#	Sandblast
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Fire		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Attendants : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 12	#	WIS: 14	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	AcidicWeapon
+#	StoneSkin
+#	Heal
+#	MassHealing
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Myrmidon : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 8	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 15	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildRoad
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Bombardier Beetle : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 4	#
+#	DEX: 15	#	WIS: 8	#
+#	CON: 18	#	CHA: 4	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 0		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 0		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Acid		#
+#	Damage Dice: 5d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Stag Beetle : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 5	#
+#	DEX: 10	#	WIS: 8	#
+#	CON: 22	#	CHA: 5	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Klickwyk : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 10	#
+#	DEX: 16	#	WIS: 10	#
+#	CON: 14	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# INSECTOIDS : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+ORCS
+#############################################
+
+
+#############################################
+# ORCS : Serf : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 8	#
+#	DEX: 10	#	WIS: 11	#
+#	CON: 17	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Raider : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 8	#
+#	DEX: 10	#	WIS: 8	#
+#	CON: 10	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeThrown	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Wolfguard : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 8	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Wolfmasters : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 8	#
+#	DEX: 12	#	WIS: 8	#
+#	CON: 10	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeThrown	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 3		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Skald : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 12	#	WIS: 13	#
+#	CON: 10	#	CHA: 12	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Heal
+#	IceBolt
+#	PsionicBlast
+#	MindStorm
+#	ResistMagic
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Berserkers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 17	#	INT: 8	#
+#	DEX: 10	#	WIS: 8	#
+#	CON: 11	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Warg Riders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 15	#	INT: 8	#
+#	DEX: 12	#	WIS: 8	#
+#	CON: 14	#	CHA: 9	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeThrown	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 3		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Longboat Ram : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 8	#
+#	DEX: 8	#	WIS: 8	#
+#	CON: 18	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Manslayers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 18	#	INT: 8	#
+#	DEX: 10	#	WIS: 12	#
+#	CON: 14	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	StoneSkin
+#	Sandblast
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 2				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Guldor Zeugme : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 8	#
+#	DEX: 10	#	WIS: 8	#
+#	CON: 14	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Galley : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Warship : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 3d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# ORCS : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+
+
+
+#############################################
+DRACONIANS
+#############################################
+
+
+#############################################
+# DRACONIANS : Founders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 12	#
+#	CON: 16	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	FoundCity
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Trackers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 1				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Javelineers : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 12	#	INT: 10	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d8		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Hunters : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 14	#	WIS: 10	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 2		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Galeriders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 10	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Spellswords : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 14	#	INT: 15	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 11	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	BlazingMartyr
+#	BerserkFrenzy
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 3				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 1		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Elementalists : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 17	#
+#	DEX: 12	#	WIS: 15	#
+#	CON: 12	#	CHA: 9	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	Fireball
+#	IceBolt
+#	LightningStrike
+#	Thunderclap
+#	AcidArrow
+#	Shatter
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	BuildSiphon
+#	PurifyTile
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 4				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: RangedMagical	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+#	Range Increment: 0		#
+##	Damage				#
+#	Weapon Type: Elemental		#
+#	Damage Type: Fire		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 0			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Elders : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 10	#
+#	DEX: 12	#	WIS: 14	#
+#	CON: 12	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 1				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 19		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Slashing		#
+#	Damage Dice: 2d6		#
+#	Damage Bonus: 1			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Doom Drake : UNIT #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 17	#	INT: 9	#
+#	DEX: 10	#	WIS: 11	#
+#	CON: 18	#	CHA: 6	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Food Upkeep: 3				#
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack Number 1		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Piercing		#
+#	Damage Dice: 1d10		#
+#	Damage Bonus: 1			#
+#########################################
+#########################################
+#		Attack Number 2		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: -5		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Fire		#
+#	Damage Dice: 2d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Dran : HERO #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 16	#	INT: 15	#
+#	DEX: 14	#	WIS: 12	#
+#	CON: 12	#	CHA: 8	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#	GuidingWind
+#	BlessWeapon
+#	FreezingWeapon
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 5				#
+#		Attacks			#
+#########################################
+#		Attack		#
+#########################################
+#	Attack Type: MeleeNormal	#
+#	Attack Bonus: 3		#
+#	Critical Range: 20		#
+#	Critical Multiplier: 2		#
+##	Damage				#
+#	Weapon Type: Mundane		#
+#	Damage Type: Bludgeoning		#
+#	Damage Dice: 1d4		#
+#	Damage Bonus: 0			#
+#########################################
+#############################################
+
+
+#############################################
+# DRACONIANS : Trireme : SHIP #
+#############################################
+#		Starting Stats		#
+------------------------------
+#	STR: 10	#	INT: 10	#
+#	DEX: 10	#	WIS: 10	#
+#	CON: 10	#	CHA: 10	#
+##############################
+#	Tactical Spells		#
+-------------------------
+#		No Spells			#
+##############################
+#	Strategic Map Abilities		#
+-------------------------
+#	No Strategic Abilities		#
+##############################
+#	Upkeep Costs			#
+-------------------------
+#	 Gold Upkeep: 2				#
+#		Attacks			#
+#		No Attacks		#
+#############################################
+

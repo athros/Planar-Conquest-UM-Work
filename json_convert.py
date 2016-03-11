@@ -139,6 +139,9 @@ def attack_display(ud):
                 print('#\tCritical Range: %s\t\t#' % atk['criticalRange'])
                 print('#\tCritical Multiplier: %s\t\t#' %
                       atk['criticalMultiplier'])
+                if re.match(RANGED_RE, atk['attackType']):
+                    print('#\tRange Increment: %s\t\t#' %
+                          atk['rangeIncrement'])
                 print('##\tDamage\t\t\t\t#')
                 print('#\tWeapon Type: %s\t\t#' %
                       atk['diceList']['DamageDie']['weaponType'])
@@ -149,8 +152,8 @@ def attack_display(ud):
                        atk['diceList']['DamageDie']['dieType']))
                 print('#\tDamage Bonus: %s\t\t\t#' %
                       atk['diceList']['DamageDie']['addAttackDamageBonus'])
-                for k, v in atk.items():
-                    print(k, v)
+                #for k, v in atk.items():
+                    #print(k, v)
                 print('#########################################')
                 i += 1
         elif atk_type is dict:
@@ -163,6 +166,9 @@ def attack_display(ud):
             print('#\tCritical Range: %s\t\t#' % atk['criticalRange'])
             print('#\tCritical Multiplier: %s\t\t#' %
                   atk['criticalMultiplier'])
+            if re.match(RANGED_RE, atk['attackType']):
+                print('#\tRange Increment: %s\t\t#' %
+                      atk['rangeIncrement'])
             print('##\tDamage\t\t\t\t#')
             print('#\tWeapon Type: %s\t\t#' %
                   atk['diceList']['DamageDie']['weaponType'])
@@ -241,9 +247,9 @@ for race in RACES:
                                                 unit['battleStats']['name'],
                                                 unit['battleStats']['type']))
                     print('#############################################')
-#                    stats_display(unit)
-#                    tac_spells_display(unit)
-#                    strat_abilities_display(unit)
-#                    upkeep_display(unit)
+                    stats_display(unit)
+                    tac_spells_display(unit)
+                    strat_abilities_display(unit)
+                    upkeep_display(unit)
                     attack_display(unit)
                     print('#############################################\n')
